@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+   <head>     
+      <title>Secure SMS Chat</title>
+      <base target="_blank" rel="noopener noreferrer">
+      <link href="./src/MolinaThinClientCSS.css" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   <!--<body style="position: relative; min-height: 100%; top: 150px;"> update body css too-->
+      <body style="position: relative; min-height: 100%;">
+      <div class="pagelayout" aria-hidden="true" role="document" >
+      <header class="container">
+         <div class="row">
+            <script type="text/javascript" charset="utf-8">
+               const queryString = window.location.search;
+               const urlParams = new URLSearchParams(queryString);
+               const InteractionID = urlParams.get('InteractionID');
+              // const Intent = urlParams.get('Intent');
+              // const Language = urlParams.get('Language');
+              // const Segmenation = urlParams.get('Segmenation');
+              // const State = urlParams.get('State');
+              // const PhoneNumber = urlParams.get('PhoneNumber');
+              // const LOB = urlParams.get('LOB');
+              // const PageLocation = urlParams.get('PageLocation');
+               
+               
+               
+               (function (g, e, n, es, ys) {
+                
+                 g['_genesysJs'] = e;
+                 g[e] = g[e] || function () {
+                   (g[e].q = g[e].q || []).push(arguments)
+                 };
+                 g[e].t = 1 * new Date();
+                 g[e].c = es;
+                 ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
+               })(window, 'Genesys', 'https://apps.usw2.pure.cloud/genesys-bootstrap/genesys.min.js', {
+                 environment: 'usw2',
+                 deploymentId: '8205ed5f-de9c-4e38-bdae-cfd72ef40eff'
+                 	 
+               });
+               
+               function UpdateCallData(x, b, c, d, e, f, g, h){
+               
+                Genesys("command", "Database.set", {
+                 messaging: {
+                   customAttributes: {
+                   	InteractionID: x		    	
+                 
+                      
+                   }
+                 }
+               });
+               
+               }
+               
+               UpdateCallData(InteractionID);
+                              
+               function toggleMessenger(){
+                  Genesys("command", "Messenger.open", {},
+                    function(o){},  // if resolved
+                    function(o){    // if rejected
+                      Genesys("command", "Messenger.close");
+                    }
+                  );
+                }
+               toggleMessenger();
+               
+               //ThinClient
+               //Intent
+               //Language
+               //Segmenation
+               //State
+               //PhoneNumber
+               //LOB
+               //PageLocation
+               
+               //http://localhost:8080/GenesysChatTest/ThinClient.html?ThinClient=true&Intent=MemOrderID&Language=en&Segmenation=&State=CA&PhoneNumber=16479857249&LOB=CS&PageLocation=OrderIdCard
+               
+            </script>
+            <!--<div class="container secondary-header rus">
+               <div class="row">
+                  <div class="col-sm-3 col-lg-3 col-md-3" id="logo">
+                     <h1 aria-hidden="true" role="document" ><a id="image" href="https://www.molinahealthcare.com/" ><img src="./src/molinaLogo-notag.png" alt="Molina Healthcare logo"></a></h1>
+                  </div>
+               </div>
+            </div>            
+         </div>-->
+      </header>
+      <div class="mainContent expContainer" role="main">
+         <div class="container">
+            <div class="row">
+            </div>
+         </div>
+         <!--<div id="main-content">
+            <div class="TwoColumnImageDesc container">
+               <div class="clearfix">
+                  <div class="row middle">
+                     <div class="col-md-6 col-sm-12">
+                        <a id="image" href="https://www.molinahealthcare.com/" ><img src="./src/molinaLogo-notag.png" alt="Molina Healthcare logo"></a>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <h2 aria-hidden="true" role="document">Welcome</h2>
+                        <div class="right-content">
+                           <p>to the Molina Healthcare Family!</p>
+                           <br />
+                           <br />
+                           <p><a href="https://www.molinahealthcare.com/members/common/en-US/abtmolina/home.aspx" target="">Learn more.</a></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>    -->     
+         <div id="main-content">
+            <div class="TwoColumnImageDesc container">
+               <div class="clearfix">
+                  <div class="row middle">
+                     <div class="col-md-6 col-sm-12">
+                        <a id="image" href="https://www.molinahealthcare.com/" ><img src="./src/molinaLogo-notag.png" alt="Molina Healthcare logo"></a>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <h2 aria-hidden="true" role="document">This is a secure conversation</h2>
+                        <div class="right-content">
+                           <p>Please click below to start chatting with us</p>
+                           <br />
+                           <br />
+                           <p><button id="custom-launcher" onclick="toggleMessenger()" class="redetbutton">Start Chatting</button></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--<div id="main-content">
+            <div class="TwoColumnImageDesc container">
+               <div class="clearfix">
+                  <div class="row middle">
+                     <div class="col-md-6 col-sm-12">
+                        <h2 aria-hidden="true" role="document">About Molina Healthcare</h2>
+                        <div class="right-content">
+                           <p>Molina Healthcare is a FORTUNE 500, multi-state health care organization.</p>
+                           <br />
+                           <br />
+                           <p><a href="https://www.molinahealthcare.com/members/common/en-US/abtmolina/home.aspx" target="">Learn more.</a></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>-->
+      </div>
+      <footer class="container">
+         <div class="row">
+            <div class="col-md-12 footer-copyrights">
+               <ul>
+                  <br>
+                  <li>©2024 Molina Healthcare, Inc. All rights reserved.</li>
+                  <li><a href="https://www.molinahealthcare.com/members/common/en-US/terms_privacy.aspx" > Molina - Terms of Use &amp; Website Privacy</a></li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>
