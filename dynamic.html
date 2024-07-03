@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<link  rel="stylesheet" type="text/css" href="https://storage.googleapis.com/demofirst-vknq.appspot.com/css/styles.css"/>
+<script  src='https://storage.googleapis.com/demofirst-vknq.appspot.com/js/process.js'></script> 
+<script  src='https://storage.googleapis.com/demofirst-vknq.appspot.com/js/tts.js'></script>
+<script  src='https://storage.googleapis.com/demofirst-vknq.appspot.com/js/FileSaver.js'></script>
+<script  src='/js/process.js'></script>
+<script  src='/js/tts.js'></script>
+<script  src='/js/FileSaver.js'></script>
+
+
+
+<script>
+var strResp="";
+</script>
+    <head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Creating Sample Conversation Snippet">
+  <meta name="keywords" content="Bot,BotPrototype,BotProto">
+  <meta name="author" content="Gagan Bhardwaj">  
+  <meta name="e-sign" content="Y29weXJpZ2h0IEBHYWdhbiBiaGFyZHdhag=="/>
+  <meta http-equiv="Cache-control" content="NO-CACHE">
+
+ <script type="text/javascript" charset="utf-8">
+
+  (function (g, e, n, es, ys) {
+    g['_genesysJs'] = e;
+    g[e] = g[e] || function () {
+      (g[e].q = g[e].q || []).push(arguments)
+    };
+    g[e].t = 1 * new Date();
+    g[e].c = es;
+    ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
+  })(window, 'Genesys', 'https://apps.usw2.pure.cloud/genesys-bootstrap/genesys.min.js', {
+    environment: 'usw2',
+    deploymentId: '86270b6a-75d0-45aa-a5d0-2dc8e8727583'
+  });
+
+
+Genesys("command", "Database.set", {
+messaging: {
+customAttributes: {
+xdt:"2024-01-09T06:20:51.012Z",
+xst:"MI",
+xlo:"CS",
+xan:"6479857249",
+xtc:"true",
+xsh:"x"
+
+}
+}
+});
+
+  </script>
+
+<!--
+MemberID: "",
+PhoneNumber:"6479857249",
+MemberDOB:"",
+MemberZIP:"",
+PageLocation:"",
+Language:"",
+LOB:"CS",
+Segmenation:"",
+State:"MI",
+UserType:"",
+ThinClient:"true",
+InitiateSMSDateTime:"2024-01-08T05:55:01.570Z",
+
+xdt:"5357-34-32W39:53:84.345C",
+xst:"PL",
+xlo:"FV",
+xan:"9702180572",
+xtc:"wuxh",
+xsh:"c"
+
+-->
+
+
+
+
+ </head>
+ <title>Bot Prototype</title>
+   <body style="text-align: center;">
+       <h1 style="color: #736F6E;">
+           <span style="color:#0000A5;">S</span>ample <span style="color:#FFA500;">C</span>onversation
+      </h1>
+<hr><br>
+
+
+
+
+<table align="center">
+  <tr>
+    <th><textarea id="userText" onfocus="" name="message" rows="10"  cols="75" wrap="soft" style="background-color:#EBF4FA;"></textarea>	</th>
+	 <th>&nbsp;&nbsp;<button id="myBtn"   onclick="processJSON(getTTS())" class="button button2">upload</button></th>
+  </tr>
+ </table>
+
+
+	<section id="sect" style="width:50%; border: 0px solid black; position: relative;"> </section>
+  
+  <div class="divFooter"><span >
+		
+    <a style="text-decoration: none; color:#736F6E;" href="mailto:gagan.2010@gmail.com?subject = Feedback&body = Message">&copy;GB</a></span> 
+	</div>
+
+	<div class="divFooter2" ><span >	
+    <button id="download" onClick="exp(strResp)" size="3" class="button button3">Export</button> 
+		<button id="clear" onClick="clr(inputsect,input2)" size="3" class="button button3">Clear</button>
+	  
+	</div>
+
+
+
+
+<script>
+//strResp+=enterUserBox(document.getElementById("userText"),strResp);
+//strResp+=enterAgentBox(document.getElementById("agentText"));
+var inputsect=document.getElementById("sect");
+var input1=document.getElementById("userText");
+input1.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   
+if (input1.value.trim().length<1) 
+		{			 
+			alert("Please enter any response for User.");
+			input1.value = "";
+			input1.focus();
+		}  
+		else {
+		   
+			  strResp+=User_log().replace(/(\n\n)/g, "\n");	
+	}
+  }
+});
+
+var input2=document.getElementById("agentText");
+
+
+  
+ 
+
+
+</script>
+  
+  
+
+  </body>
+	
+</html>
