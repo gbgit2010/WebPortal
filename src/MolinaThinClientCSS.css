@@ -1,0 +1,5398 @@
+/* Thin Client CSS for button */
+
+
+.header {
+    color: #009EA0;
+    font-size: 40px;
+}
+
+.redetbanner {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.redetbutton {
+    background: repeat-x 0 0 #00a7ab;
+    padding: 5px 15px 5px;
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #067a91;
+    border: 1px solid #0292a0;
+    border-top: 1px solid #75d7e2;
+    border-left: 1px solid #75d7e2;
+    outline: 1px solid #ccc;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.redetbutton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width:576px) {
+    .container {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1140px
+    }
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+/*.....................................................................................................................*/
+/*setting desktop container's width*/
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1026px;
+    }
+}
+
+body {
+    background: #F8F8F8 repeat-x;
+}
+
+.pagelayout {
+    font-size: 14px !important;
+    font-family: Arial, sans-serif !important;
+    background-color: #F8F8F8;
+}
+
+.pagelayout a {
+    text-decoration: none
+}
+
+.pagelayout a:link:hover {
+    text-decoration: underline
+}
+
+.pagelayout h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+    color: #3d3d3d
+}
+
+.pagelayout h1 a,
+h2 a,
+h3 a,
+h4 a {
+    font-weight: bold;
+    color: #00909d
+}
+
+.pagelayout h4 a:link {
+    color: #00909d
+}
+
+.pagelayout input[type="image"]:hover,
+.pagelayout a.changeBtn:hover,
+.pagelayout a.contactBtn:hover,
+.pagelayout div .frame img {
+    float: left;
+    background: #e5e6e4;
+    margin: 0 10px 0 0;
+    padding: 8px;
+    border: 1px solid #ddd
+}
+
+.pagelayout div .frame.right img {
+    margin: 0 0 5px 10px
+}
+
+.pagelayout img.frame-small {
+    float: left;
+    background: #e5e6e4;
+    margin: 0 10px 0 0;
+    padding: 5px;
+    border: 1px solid #ddd;
+    width: 142px;
+    height: 81px;
+}
+
+a.disableanchor {
+    color: #aaa !important;
+    text-decoration: none !important;
+}
+
+a.disableanchor:hover {
+    cursor-pointer: none;
+}
+
+.inquiryBox .side-module {
+    background: transparent;
+    padding: 10px;
+    border: 1px solid #ccc;
+    word-wrap: break-word;
+    font-size: .9375em !important;
+    font-family: Arial, sans-serif !important;
+    line-height: 1.4;
+}
+
+.inquiryBox .side-module h3 {
+    margin: 0 0 5px 0;
+    font-size: 21px !important;
+    line-height: normal;
+}
+
+.container.layout {
+    padding: 0px;
+    background: #fff;
+}
+
+#main-content {
+    width: 100%;
+}
+
+.MainContentRight .divseparator {
+    border-top: 1px solid darkgray;
+}
+
+.mainContent {
+    margin: 6px 0 0 0 !important;
+    padding-bottom: 1px;
+    color: #3d3d3d;
+}
+
+.mainContent .row {
+    padding: 0px 14px 0px 10px;
+}
+
+.mainContent .container {
+    background-color: #fff;
+}
+
+.mainContent .container.marketPlace {
+    padding: 0;
+}
+
+.center {
+    text-align: center
+}
+
+.right {
+    float: right
+}
+
+.pagelayout p.spacer {
+    display: block;
+    height: 7px
+}
+
+.pagelayout p.hr {
+    margin: 14px 0;
+    border-bottom: 1px solid #c8cdd1
+}
+
+.pagelayout img.connect {
+    margin: 14px 14px 0 0
+}
+
+.mainContent {
+    margin-top: -2px;
+    padding-bottom: 0;
+    color: #3d3d3d
+}
+
+header.container {
+    background: transparent;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+.borderRadius .shadow {
+    -moz-box-shadow: 5px 5px 5px -5px #888;
+    -webkit-box-shadow: 5px 5px 5px -5px #888;
+    box-shadow: 5px 5px 5px -5px #888
+}
+
+img.fnone {
+    float: none !important
+}
+
+/* Footer */
+
+footer {
+    background: white;
+    margin-bottom: 7px;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+footer .container {
+    background-color: #fff;
+}
+
+pageFooter {
+    margin-bottom: 6px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+footer h3 {
+    font-size: 16px;
+    color: #3d3d3d;
+    font-weight: normal;
+    margin-bottom: 17px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer h3 a {
+    color: #3d3d3d;
+    font-weight: normal !important;
+    text-decoration: none;
+}
+
+footer h3 a:hover {
+    color: #3d3d3d;
+    text-decoration: none !important;
+}
+
+footer li a {
+    font-size: 14px;
+    color: #01909c;
+    line-height: 16px;
+}
+
+footer li a:hover {
+    color: #01909c;
+    text-decoration: underline;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 5px 0 0 0;
+    line-height: 14px;
+    /*width:133px;*/
+}
+
+ul.footer-child li {
+    width: 133px;
+}
+
+footer .footer-copyrights {
+    font-size: 11.25px;
+    color: #9b9b9b;
+}
+
+footer .footer-copyrights a {
+    color: #9b9b9b;
+    font-size: 11.25px;
+}
+
+footer .footer-copyrights a:hover {
+    color: #9b9b9b;
+    text-decoration: underline;
+}
+
+footer .footer-copyrights li {
+    padding: 0 10px 0 0;
+    display: inline-block;
+    position: relative
+}
+
+footer .footer-copyrights .last-updated {
+    font-size: 11pt;
+    padding: 0 0 5px 0;
+}
+
+.footer-social-icons {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    width: 32px;
+}
+
+footer a.social-icon-big {
+    float: left;
+    height: 32px;
+    width: 32px;
+    padding-bottom: 45px;
+    text-indent: -9999px;
+    background: repeat scroll 0 0 transparent;
+}
+
+a.social-icon-big.linkedin-big {
+    background-position: -200px -333px;
+    width: 32px;
+    height: 32px;
+}
+
+a.social-icon-big.linkedin-big:hover {
+    background-position: -22px -404px;
+    width: 32px;
+    height: 32px;
+}
+
+a.social-icon-big.pinterest-big {
+    background-position: -242px -333px;
+    width: 32px;
+    height: 32px;
+}
+
+a.social-icon-big.pinterest-big:hover {
+    background-position: -63px -404px;
+    width: 32px;
+    height: 32px;
+}
+
+.pageFooter .nav .section h3 a {
+    font-size: 1em;
+    color: #3d3d3d;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.pagelayout h1 a {
+    font-size: 1em;
+    color: #3d3d3d;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+a.social-icon-big.fb-big {
+    background-position: -22px -287px;
+}
+
+a.social-icon-big.fb-big:hover {
+    background-position: -64px -287px;
+}
+
+a.social-icon-big.twitter-big {
+    background-position: -22px -333px;
+}
+
+a.social-icon-big.twitter-big:hover {
+    background-position: -61px -333px;
+}
+
+a.social-icon-big.instagram-big {
+    background-position: -200px -287px;
+}
+
+a.social-icon-big.instagram-big:hover {
+    background-position: -242px -287px;
+}
+
+a.social-icon-big.youtube-big {
+    background-position: -113px -333px;
+}
+
+a.social-icon-big.youtube-big:hover {
+    background-position: -152px -333px;
+}
+
+a.social-icon-big.googleplus-big {
+    background-position: -113px -287px;
+}
+
+a.social-icon-big.googleplus-big:hover {
+    background-position: -155px -287px;
+}
+
+footer .col-md-2 {
+    padding: 18px;
+}
+
+footer {
+    margin-top: 7px;
+}
+
+/***tablet**/
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /**globalToolBox**/
+    .globalToolbox .pageWrapper {
+        margin: 0;
+        padding: 0;
+    }
+
+    .globalToolbox .stateSelector {
+        width: 210px;
+    }
+
+    .globalToolbox {
+        padding: 7px 5px 0;
+    }
+
+    .globalToolbox .stateSelector label {
+        padding-right: 10px;
+        width: 210px;
+    }
+
+    header .container {
+        padding: 0 10px;
+    }
+
+    /*header*/
+    .secondary-header #logo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .secondary-header #search {
+        max-width: 63% !important;
+        flex: 0 0 63% !important;
+    }
+
+    .secondary-header #signin {
+        max-width: 13% !important;
+        flex: 0 0 13% !important;
+    }
+
+    .secondary-header .click-nav .clicker {
+        width: 95px;
+    }
+
+    ul.footer-child li {
+        width: 100%;
+    }
+}
+
+
+/**mobile**/
+
+@media only screen and (max-width: 767px) {
+
+    .click-nav .signin-dropdown {
+        left: 15px;
+        width: inherit;
+    }
+
+    footer .footer-copyrights .last-updated {
+        padding: 0;
+    }
+
+    button:hover {
+        color: #2B32B2;
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+    button {
+        border: none;
+        cursor: pointer;
+        outline: none;
+    }
+
+    /*globalToolBox*/
+
+    .globalToolbox .stateSelector,
+    .globalToolbox .typeTool,
+    .globalToolbox .typeTool p {
+        display: none;
+    }
+
+    .globalToolbox .stateddlSelector::before,
+    .globalToolbox .languageSelector::before {
+        right: 20px;
+    }
+
+    .globalToolbox .stateddlSelector,
+    .globalToolbox .languageSelector {
+        width: 50%;
+        padding: 0;
+    }
+
+    .globalToolbox .languageSelector {
+        padding: 0 0 0 5px;
+    }
+
+    .globalToolbox .stateddlSelector select,
+    .globalToolbox .languageSelector select {
+        width: 100%;
+    }
+
+    .globalToolbox .pageWrapper {
+        margin: 0;
+        padding: 0 0 8px 0;
+    }
+
+    .globalToolbox .languageSelector,
+    .globalToolbox .languageSelector .bootstrap-select .dropdown-menu,
+    .globalToolbox .stateddlSelector,
+    .globalToolbox .stateddlSelector .bootstrap-select .dropdown-menu {
+        width: 50%;
+        min-width: 50% !important;
+    }
+
+    .globalToolbox .languageSelector .bootstrap-select button.dropdown-toggle,
+    .globalToolbox .stateddlSelector .bootstrap-select button.dropdown-toggle {
+        width: 100%;
+    }
+
+    .globalToolbox .languageSelector .bootstrap-select .inner,
+    .globalToolbox .stateddlSelector .bootstrap-select .inner {
+        overflow-x: hidden;
+    }
+
+    .globalToolbox .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+        width: 100%;
+    }
+
+    .globalToolbox .languageSelector {
+        margin: 0;
+    }
+
+
+    /*Footer*/
+    footer .footer-copyrights {
+        padding: 0 15px;
+    }
+
+    footer .footer-copyrights li {
+        padding: 0;
+    }
+
+    footer .mobile-footer-notes {
+        display: block;
+    }
+
+    .footer-social-icons {
+        position: relative;
+        right: auto;
+        top: 0;
+        width: 100%;
+        margin: 15px;
+        border-bottom: 0.3px solid #9b9b9b;
+        padding: 5px 0;
+    }
+
+    footer a.social-icon-big {
+        padding: 0 39px 45px 0;
+    }
+}
+
+
+/**for navigation**/
+
+@media only screen and (min-width: 768px) {
+    #main-navigation .navbar {
+        padding: 0px !important;
+    }
+
+    #main-navigation .navbar-brand {
+        display: none;
+    }
+
+    #main-navigation .container {
+        max-width: 1024px;
+    }
+
+    .secondary-header #logo {
+        max-width: 21%;
+        flex: 0 0 21%;
+        border-right: 1px solid #cdcdcd;
+    }
+
+    .secondary-header .noborder#logo {
+        border: none;
+    }
+
+    .secondary-header #search {
+        max-width: 65.5%;
+        flex: 0 0 65.5%
+    }
+
+    .secondary-header #signin {
+        max-width: 13.5%;
+        flex: 0 0 13.5%;
+        border-left: 1px solid #cdcdcd;
+    }
+
+    footer .col-md-2 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 15.666667%;
+        max-width: 15.666667%;
+    }
+
+    /*** fixing two and three column layout width****/
+    .mainContent .nav-side-menu {
+        flex: 0 0 21%;
+        max-width: 21%;
+        background: #fff;
+    }
+
+    .mainContent .MainContentRight,
+    .mainContent .StaticPageLayout {
+        flex: 0 0 79%;
+        max-width: 79%;
+        padding-right: 0px;
+    }
+
+    .mainContent .MainContentRight .col-md-9 {
+        flex: 0 0 71%;
+        max-width: 71%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .mainContent .MainContentRight .col-md-3 {
+        flex: 0 0 29%;
+        max-width: 29%;
+        padding-right: 4px;
+        padding-left: 13px;
+    }
+}
+
+
+/*Member Main Navigation - Bootstrap Changes*/
+/*Public Website Bootstrap Main Menu*/
+
+nav.navbar.navbar-expand-md {
+    padding: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu .dropdown-item:first-child {
+    padding-top: 11px;
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu .dropdown-item:last-child {
+    padding-bottom: 13px;
+}
+
+.dropdown-item {
+    white-space: normal;
+    padding: 5px 13px;
+    font-size: 1em;
+    line-height: 1;
+    color: #3d3d3d;
+}
+
+.dropdown-item a {
+    color: #3d3d3d !important;
+    font-size: 14px;
+}
+
+.nav-item {
+    display: inline;
+    background-color: #009EA0 !important;
+    height: 57px;
+    margin: 0;
+    list-style-type: none;
+    border-right: 1px solid #68b6bc;
+    border-left: 1px solid #53a1a9;
+    width: 17%;
+    padding: 0;
+}
+
+.nav-item:hover,
+.nav-item.selected:hover,
+.nav-item.navigate {
+    color: #fff;
+    background-color: #E2F5F6;
+}
+
+.nav-item .nav-link:hover,
+.nav-item.hover .nav-link {
+    color: #000 !important;
+    text-decoration: none !important;
+    text-shadow: none;
+}
+
+.navbar-expand-md .navbar-nav {
+    width: 100%;
+}
+
+.nav-link {
+    display: table-cell;
+    vertical-align: middle;
+    width: inherit;
+    height: 55px;
+    margin: 0 auto;
+    padding: 0 7px !important;
+    line-height: 16px;
+    color: #fff !important;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    /* text-shadow: 1px 1px 1px #333; */
+    z-index: 101;
+    word-wrap: break-word;
+    white-space: inherit;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.navbar-expand-md .navbar-nav .nav-item.dropdown:first-child .dropdown-menu {
+    left: -17px;
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+    position: absolute;
+    background-color: #bdeff3;
+    margin: 0;
+    font-weight: normal;
+    text-align: left;
+    text-shadow: none;
+    border: 1px solid #777;
+    z-index: 2001;
+    border-radius: 0;
+    padding: 0;
+    left: -10px;
+    width: 11.8rem;
+}
+
+.dropdown-item:hover {
+    color: #16181b;
+    text-decoration: underline;
+    background-color: #f8f8f8;
+}
+
+.navbar-expand-md .navbar-nav .nav-item.dropdown:first-child {
+    border-left: none;
+}
+
+.navbar-expand-md .navbar-nav .nav-item.dropdown:last-child {
+    border-right: none;
+}
+
+.fixed-top {
+    position: relative;
+}
+
+.nav-item.selected {
+    color: #fff;
+    background-color: #093238 !important;
+}
+
+
+.navbar-brand.d-block {
+    display: none !important;
+}
+
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    .navbar-brand.d-block {
+        display: none !important;
+    }
+
+    .navbar-expand-md .navbar-nav .dropdown-menu {
+        left: -17px;
+        width: 8.8rem;
+    }
+
+    .provider .nav-link {
+        padding: 0 !important;
+    }
+
+    .provider.navbar-expand-md .navbar-nav .dropdown-menu {
+        width: 150px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+
+    .fixedPosition .provider-header {
+        background: none;
+    }
+
+    .provider .nav-item {
+        width: 100% !important;
+    }
+
+    #main-navigation {
+        z-index: 1100;
+        background: #fff;
+        width: 100%;
+        height: 54px;
+    }
+
+    .navbar-brand img {
+        width: 110px;
+    }
+
+    .visibilityhidden {
+        visibility: hidden;
+    }
+
+    .bgnone {
+        background: #fff !important;
+    }
+
+    .nav-item.inactive,
+    .dropdown-toggle::after,
+    .navbar-collapse.submenu-view .navbar-nav .nav-item,
+    .dropdown:hover .dropdown-menu {
+        display: none;
+    }
+
+    .navbar-collapse,
+    .navbar-collapse.collapsed {
+        position: absolute;
+        top: 54px;
+        left: 100%;
+        width: 100%;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        padding: 0;
+        min-height: 330px;
+    }
+
+    .container {
+        max-width: none;
+        width: 100%;
+    }
+
+    .navbar-toggler span.icon-bar {
+        background-color: #fff !important;
+        display: block;
+        width: 28px;
+        height: 3px;
+        border-radius: 1px;
+        margin: 7px 0;
+    }
+
+    .nav-item.dropdown.show .dropdown-toggle {
+        text-align: center;
+        position: absolute;
+        top: -50px;
+        border: none;
+        left: 12%;
+        width: 75%;
+    }
+
+    .dropdown-menu.show .dropdown-item {
+        border-bottom: 1px solid #e5e5e5;
+        background: transparent;
+    }
+
+    .dropdown-item a,
+    .provider .dropdown-item a {
+        color: #8d8b8b !important;
+        padding: 0;
+    }
+
+    button.navbar-toggler:focus {
+        outline: none;
+    }
+
+    .nav-item.dropdown.show {
+        min-height: 330px;
+        display: block !important;
+    }
+
+    .nav-item .arrow {
+        right: 20px;
+        border: solid #b2b2b2;
+        border-width: 0px 4px 4px 0px;
+        display: inline-block;
+        padding: 6px;
+        transform: rotate(-45deg);
+        top: 18px;
+        float: right;
+        position: relative;
+        content: '';
+    }
+
+    .nav-item.dropdown.show .arrow {
+        left: 20px;
+        border: solid #b2b2b2;
+        border-width: 0px 4px 4px 0px;
+        display: inline-block;
+        padding: 6px;
+        transform: rotate(135deg);
+        top: -33px;
+        float: left;
+        position: relative;
+        content: '';
+    }
+
+    .nav-item.dropdown.show:hover {
+        background: none;
+    }
+
+    .navbar-dark .navbar-brand {
+        padding: 5px;
+        display: block !important;
+    }
+
+    .navbar.navbar-expand-md.navbar-dark.fixed-top {
+        background: repeat-x 0 0;
+        font-family: Arial, sans-serif;
+        height: 52px;
+    }
+
+
+    .navbar-dark .navbar-toggler {
+        border: none;
+        background: transparent;
+    }
+
+    .nav-item,
+    .provider .nav-item {
+        width: 100%;
+        height: auto;
+        border: none;
+        background: #fff !important;
+        border-bottom: 1px solid #e5e5e5;
+        border-radius: 0;
+    }
+
+    .navbar-expand-md .navbar-nav .dropdown-menu,
+    .navbar-expand-md .navbar-nav .nav-item.dropdown:first-child .dropdown-menu,
+    .provider.navbar-expand-md .navbar-nav .dropdown-menu {
+        left: 0;
+        width: 100%;
+        position: relative;
+        background-color: #fff;
+        border: none;
+    }
+
+    .dropdown-item,
+    .provider .dropdown-item {
+        padding: 15px !important;
+        margin: 0;
+    }
+
+    .provider .dropdown-item {
+        background: none;
+    }
+
+    .provider .dropdown-item a {
+        padding: 0;
+    }
+
+    .nav-link,
+    .nav-item .nav-link:hover,
+    .nav-item.hover .nav-link {
+        padding: 0 15px !important;
+        display: inline-block;
+        line-height: 55px;
+        text-shadow: none;
+        text-align: left;
+        color: #8d8b8b !important;
+        width: 85%;
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .navbar-toggler .icon-bar:nth-of-type(2) {
+        top: 1px;
+    }
+
+    .navbar-toggler .icon-bar:nth-of-type(3) {
+        top: 2px;
+    }
+
+    .navbar-toggler .icon-bar {
+        position: relative;
+        transition: all 500ms ease-in-out;
+    }
+
+    .navbar-toggler.active .icon-bar:nth-of-type(1) {
+        top: 15px;
+        transform: rotate(45deg);
+        background-color: #9f9e9e !important;
+        height: 4px;
+    }
+
+    .navbar-toggler.active .icon-bar:nth-of-type(2) {
+        background-color: transparent !important;
+    }
+
+    .navbar-toggler.active .icon-bar:nth-of-type(3) {
+        top: -6px;
+        transform: rotate(-45deg);
+        background-color: #9f9e9e !important;
+        height: 4px;
+    }
+
+    .navbar-expand-md .navbar-nav {
+        background: #fff;
+    }
+
+    .dropdown-item::after {
+        right: 2px;
+        border: solid #b2b2b2;
+        border-width: 0px 4px 4px 0px;
+        display: inline-block;
+        padding: 6px;
+        transform: rotate(-45deg);
+        top: 0;
+        float: right;
+        position: relative;
+        content: '';
+        display: none;
+    }
+
+    /* animations */
+    @-webkit-keyframes MenuAnimIn2 {
+        from {
+            margin-left: 0%;
+            opacity: 0;
+            width: 100%;
+        }
+
+        to {
+            margin-left: 100%;
+            opacity: 1;
+            width: 300%;
+        }
+    }
+
+    @-webkit-keyframes MenuAnimOut2 {
+        from {
+            margin-left: 100%;
+            opacity: 0.5;
+            width: 300%;
+        }
+
+        to {
+            margin-left: 0%;
+            opacity: 1;
+            width: 100%;
+        }
+    }
+
+    .navbar-collapse.animate-out-2 {
+        -webkit-animation-duration: 0.2s;
+        -webkit-animation-name: MenuAnimOut2;
+    }
+
+    .navbar-collapse.animate-in-2 {
+        -webkit-animation-duration: 0.3s;
+        -webkit-animation-name: MenuAnimIn2;
+    }
+
+    .dropdown:hover .dropdown-menu.show {
+        display: block;
+    }
+
+    .nav-item.selected .nav-link:hover,
+    .nav-item.selected.hover .nav-link {
+        color: #000 !important;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:960px) {
+    .click-nav .signin-dropdown {
+        left: -50px;
+        width: 178px;
+    }
+
+    .provider .nav-item:last-child .submenu {
+        left: -76px !important;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1200px) {
+    .provider .nav-item:last-child .submenu {
+        left: -48px !important;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .mainContent.expContainer {
+        max-width: 100%;
+        margin: 7px auto 0 auto !important;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .mainContent.expContainer {
+        max-width: 720px;
+        margin: 7px auto 0 auto !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .mainContent.expContainer {
+        max-width: 960px;
+        margin: 7px auto 0 auto !important;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .mainContent.expContainer {
+        max-width: 1024px;
+        margin: 7px auto 0 auto !important;
+    }
+}
+
+.nav-item.selected .nav-link:hover,
+.nav-item.selected.hover .nav-link {
+    color: #fff !important;
+}
+
+
+/*End*/
+.desktopiframe {
+    display: block;
+}
+
+.rtlDirection {
+    direction: ltr;
+}
+
+.mobileiframe {
+    display: none;
+}
+
+.sub-menu-li {
+    list-style: none !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    line-height: 29px !important;
+    cursor: pointer !important;
+}
+
+.medicare-memeber-wrapper #main-content .disclaimerstyle {
+    width: 140%;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+}
+
+.disclaimerstyle {
+    Width: 100%;
+    margin-bottom: 50px;
+}
+
+.toolbox-button-hide {
+    visibility: hidden;
+}
+
+
+.mainContent #hlinkDownload {
+    margin-top: 0px;
+    margin-left: 30px;
+    padding: 2px 15px 2px;
+    margin-bottom: 20px;
+}
+
+.sidebarPosition {
+    position: relative;
+    top: 240px;
+}
+
+.sidebarPosition.sidebarPositionfix {
+    top: 380px;
+}
+
+
+/*gridimageborder*/
+
+.MainContentRight .landing-module-wrapper .gridimageborder {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    border: 6px solid #ebebeb;
+    display: table;
+}
+
+.MainContentRight .landing-module-wrapper .gridimageborder .landing-module {
+    width: 100%;
+    min-height: 160px;
+}
+
+.MainContentRight .landing-module-wrapper .gridimageborder .landing-module div {
+    width: 92%;
+    float: none;
+}
+
+/*for all resolution*/
+
+.ImageWithText.Artical_contentPrivacyPractices .msotablegrid {
+    width: 78%;
+}
+
+.ImageWithText.Artical_contentPrivacyPractices .ImageWithText-content ul.tab {
+    margin-left: 0 !important;
+    display: table;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.ImageWithText.Artical_contentPrivacyPractices .ImageWithText-content ul.tab li {
+    list-style-type: none;
+}
+
+.ImageWithText.Artical_contentPrivacyPractices .tab li a.tablinks.active {
+    background-color: #f1f1f1;
+}
+
+.ImageWithText.Artical_contentPrivacyPractices .tab li a.tablinks {
+    float: left;
+    text-align: center;
+    padding: 12px 13px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+.ImageWithText.Artical_contentPrivacyPractices .tabcontent table.table-two td .right {
+    width: auto !important;
+    float: right;
+    padding: 0;
+}
+
+.ImageWithText.Artical_contentPrivacyPractices .ms-rtestate-read.ms-rte-wpbox table td {
+    border: none;
+}
+
+.ImageWithText.Artical_contentPrivacyPractices .ms-rtestate-read.ms-rte-wpbox table {
+    border: none !important;
+}
+
+.Artical_contentPrivacyPractices .viewplansaccordion {
+    margin-left: -5px;
+    margin-right: -10px;
+}
+
+.Artical_contentPrivacyPractices .viewplansaccordion .container {
+    padding: 0px
+}
+
+.Artical_contentPrivacyPractices .viewplansaccordion .col-md-12.col-sm-12 {
+    padding: 0px
+}
+
+.Artical_contentPrivacyPractices .plan-notes {
+    margin-left: -10px;
+    margin-right: -15px;
+    font-family: Arial, sans-serif;
+    color: #626466;
+    padding-bottom: 50px;
+}
+
+.Artical_contentPrivacyPractices .plan-notes .marB10 {
+    font-size: 12px !important;
+    margin: 0 0 10px 0 !important;
+    line-height: 1.2em !important;
+}
+
+.plan-notes .marB10 {
+    font-size: 12px;
+}
+
+
+/* services */
+
+.services h2 {
+    font-family: sans-serif;
+    font-size: 1.8em;
+}
+
+/*.....................................................................................................................*/
+
+/*.....................................................................................................................*/
+
+
+/* 5.Mainbanner */
+
+.mainBanner {
+    width: 100%;
+    min-height: 202px;
+    /*Fix for production 404 Error for resource GET /_Content/Images/hero-about[1].jpg */
+    background-position-x: center;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto;
+    background-color: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.mainBanner .content {
+    color: #3d3d3d;
+    height: auto;
+    padding: 10px;
+    width: 60%;
+    display: inline;
+    line-height: 1.4;
+    font-size: 14px;
+}
+
+.banner .mainBanner .content p {
+    color: #3d3d3d;
+    width: 100%;
+}
+
+.banner .mainBanner .content .MiEdu {
+    width: 88%
+}
+
+.banner .mainBanner .content .MiServices {
+    width: 82%
+}
+
+.StaticPageLayout .CurrentYear {
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    .mainBanner .content {
+        width: 100%;
+        margin-top: 202px;
+    }
+}
+
+
+/**mobile**/
+
+
+/**tablet**/
+
+@media only screen and (max-width: 1023px) {
+    .mainBanner {
+        width: 100%;
+    }
+}
+
+.mainBanner .item .ms-rteElement-Copy-25px,
+.abtmolinacontent .homepageScroller .ms-rteElement-Copy-25px {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 6px;
+    padding-left: 10px;
+}
+
+.mainBanner .item .ms-rteElement-Heading-48px {
+    font-size: 48px;
+    font-family: 'Optima LT W01 Roman', Arial, sans-serif;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+/*.....................................................................................................................*/
+
+
+h1.ms-rteElement-Heading-sc {
+    font-size: 32px !important;
+    line-height: 32px !important;
+}
+
+p.ms-rteElement-Copy-sc {
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.ms-rteElement-Subheading-24px {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-family: Arial, sans-serif !important;
+    font-family: Arial sans-serif;
+    line-height: 24px !important;
+}
+
+.fourthSlideFline {
+    font-size: 32px !important;
+    line-height: 32px !important;
+}
+
+.contrlbutton .pausebtn {
+    background: scroll 8px 4px no-repeat;
+    width: 25px;
+    height: 30px;
+    display: block;
+    margin-left: -15px;
+    font-size: 0;
+}
+
+.contrlbutton .playbtn {
+    background: scroll -52px 5px no-repeat;
+    width: 25px;
+    height: 30px;
+}
+
+.contrlbutton {
+    position: absolute;
+    z-index: 100;
+    left: 15px;
+    bottom: 2px;
+}
+
+
+.homeBanner {
+    position: relative;
+    z-index: 0;
+    padding: 0 !important;
+    margin-bottom: 5px;
+    margin-top: -2px;
+    background-color: transparent !important;
+}
+
+/***tablet**/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+
+    .homeBanner {
+        padding: 0;
+    }
+
+    .homeBanner .carousel-item img {
+        display: none !important;
+    }
+
+    .homeBanner .carousel-item:nth-child(1),
+    .homeBanner .carousel-item:nth-child(4) {
+        background-color: #6e3a5e;
+    }
+
+    .homeBanner .carousel-item:nth-child(2) {
+        background-color: #009ea1;
+    }
+
+    .homeBanner .carousel-item:nth-child(3) {
+        background-color: #fff;
+    }
+
+}
+
+
+/**mobile**/
+
+@media only screen and (max-width: 767px) {
+
+
+    h2.ms-rteElement-Heading-sc {
+        font-size: 28px;
+        line-height: 25px;
+    }
+
+    #carouselExampleIndicators .carousel-caption .ms-rteElement-Heading-48px {
+        margin-left: 0px;
+        font-size: 22px !important;
+        line-height: 24px !important;
+    }
+
+    .homeBanner .carousel-item img {
+        display: none !important;
+    }
+
+
+    .homeBanner .carousel-item:nth-child(1),
+    .homeBanner .carousel-item:nth-child(4) {
+        background-color: #6e3a5e;
+    }
+
+    .homeBanner .carousel-item:nth-child(2) {
+        background-color: #009ea1;
+    }
+
+    .homeBanner .carousel-item:nth-child(3) {
+        background-color: #fff;
+    }
+}
+
+
+/*.....................................................................................................................*/
+/*46.TwoColumImageLink*/
+
+.Twocolumnimagelink {
+    display: block;
+    background: #fff no-repeat center center;
+    width: 100%;
+    min-height: 190px;
+    margin-bottom: 5px;
+    border: 2px solid #e4e4e4;
+}
+
+.Twocolumnimagelink .left,
+.Twocolumnimagelink .right {
+    float: left;
+    width: 460px;
+    margin: 0;
+    padding: 18px 22px;
+}
+
+.Twocolumnimagelink h2 {
+    font-weight: bold;
+    font-size: 1.467em;
+    margin: 0 0 12px 0;
+}
+
+.Twocolumnimagelink a {
+    color: #00909d;
+    text-decoration: none;
+}
+
+.Twocolumnimagelink p {
+    float: right;
+    width: 250px;
+    margin: 0 0 5px;
+    line-height: 1.3;
+}
+
+.Twocolumnimagelink ul {
+    float: right;
+    width: 235px;
+    margin: 5px 15px 5px 0;
+    list-style-type: none;
+}
+
+.Twocolumnimagelink ul li {
+    line-height: 1.4;
+    color: #00909d;
+}
+
+.Twocolumnimagelink ul li span {
+    color: #00909d;
+    font-size: 1em;
+}
+
+.Twocolumnimagelink img {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.Twocolumnimagelink a img:hover {
+    opacity: .8;
+}
+
+.Twocolumnimagelink img.frame-small {
+    background: #e5e6e4;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.Twocolumnimagelink a:link:hover {
+    text-decoration: underline;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*47.TwoColumnImageDesc*/
+
+.TwoColumnImageDesc .middle h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 12px 0;
+    color: #009EA0;
+}
+
+.TwoColumnImageDesc .middle {
+    background: #fff no-repeat center center;
+    min-height: 190px;
+    margin-bottom: 5px;
+    border: 2px solid #e4e4e4;
+    padding: 0;
+}
+
+.TwoColumnImageDesc .middle .col-md-6 {
+    padding: 18px 22px;
+}
+
+.TwoColumnImageDesc .middle a {
+    color: #00909d;
+    text-decoration: none;
+}
+
+.TwoColumnImageDesc .middle p {
+    float: left;
+    width: 700px;
+    margin: 0 0 5px;
+    line-height: 1.3;
+    font-size: 1em;
+}
+
+.TwoColumnImageDesc .middle img {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.TwoColumnImageDesc img.frame-small:hover {
+    opacity: 0.8;
+}
+
+.TwoColumnImageDesc img.frame-small {
+    background: #e5e6e4 !important;
+    padding: 5px !important;
+    border: 1px solid #ddd !Important;
+    height: 105px !important;
+    width: 184px !important;
+}
+
+.TwoColumnImageDesc .middle a:link:hover {
+    text-decoration: underline;
+}
+
+.TwoColumnImageDesc.container .right-content {
+    float: left;
+    width: 20%;
+    font-size: 20px;
+}
+
+.TwoColumnImageDesc.container .right-content ul {
+    color: #00909d;
+    font-weight: normal;
+    padding-left: 20px;
+    clear: both;
+}
+
+/* Tablet View */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .TwoColumnImageDesc .middle {
+        background: none;
+    }
+
+    .TwoColumnImageDesc .middle p {
+        float: left;
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .TwoColumnImageDesc .middle p {
+        width: 220px;
+    }
+}
+
+
+/* Mobile view */
+
+@media only screen and (max-width: 767px) {
+    .TwoColumnImageDesc .middle {
+        background: none;
+    }
+
+    .TwoColumnImageDesc .middle h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .TwoColumnImageDesc .middle p {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*56.Molina news blog*/
+
+.mainContent .main-bonaza {
+    float: left;
+    margin-right: 10px;
+    line-height: 1.4;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-align: left;
+    width: 100%;
+}
+
+.mainContent .main-bonaza h2 {
+    margin: 7px 0;
+    line-height: 1.4;
+    font-size: 1.5em;
+}
+
+.mainContent .grey-bonaza {
+    padding: 10px 5px 5px 10px !important;
+    background-color: #ECECEC;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    width: 100%;
+}
+
+.mainContent .grey-bonaza p {
+    color: rgb(61, 61, 61) !important;
+}
+
+
+.mainContent .grey-bonaza a {
+    color: #00909d;
+    text-decoration: none;
+}
+
+.mainContent .bonaza-content {
+    float: left;
+    width: 100%;
+}
+
+.mainContent .bonaza-content a {
+    color: #00909d;
+}
+
+.inquiryBox .side-module p {
+    margin-bottom: 0px;
+}
+
+.inquiryBox .side-module a {
+    color: #00909d;
+    text-decoration: none;
+    padding: 0;
+    line-height: 1.4;
+    font-size: 7pt;
+}
+
+.inquiryBox .side-module p.hr {
+    border-bottom: 1px solid #c8cdd1;
+    margin: 0px;
+}
+
+.mainContent .readmore {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.mainContent .main-bonaza img {
+    vertical-align: middle;
+    border-style: none;
+    width: 483px;
+    height: 300px;
+}
+
+@media only screen and (max-width:768px) {
+    .mainContent .main-bonaza img {
+        width: 100%;
+    }
+
+    .main-bonaza .col-md-3 {
+        max-width: 20%;
+    }
+}
+
+@media only screen and (min-width:1023px) {
+    .mainContent .main-bonaza img {
+        width: 100%;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*57.why molina*/
+
+.WhyMolina .MainContentRight {
+    padding: 15px;
+}
+
+.WhyMolina .MainContentRight-pageTitle h2 {
+    margin: 0 0 7px 0;
+    line-height: 1.4;
+    font-size: 1.5em;
+}
+
+.WhyMolina .ImageWithText .ImageWithText-image img {
+    background: #e5e6e4;
+    padding: 8px;
+}
+
+.WhyMolina .ImageWithText .ImageWithText-content h3 {
+    font-size: 1.17em;
+    margin: 7px 0;
+}
+
+.WhyMolina .ImageWithText .ImageWithText-content p {
+    font-size: 14px;
+    margin: 0 0 14px 0;
+}
+
+.WhyMolina .col-md-7.col-xs-12.ImageWithText-content {
+    padding-right: 17px;
+}
+
+.WhyMolina .col-md-5.col-xs-12.ImageWithText-image {
+    padding-left: 0px;
+}
+
+.communityvideo {
+    display: block;
+    width: 100%;
+    height: 400px;
+    cursor: pointer;
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    background: 0px 0px no-repeat scroll;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*58. New Healthcare Accordion*/
+.d-flex {
+    display: flex !important;
+}
+
+.pt-3 {
+    padding-top: 1rem !important;
+}
+
+.pb-3 {
+    padding-bottom: 1rem !important;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.integration-list {
+    font-family: 'Open Sans', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    display: table;
+}
+
+.link-text {
+    font-size: 1em;
+}
+
+.expand {
+    display: block;
+    text-decoration: none;
+    color: #555;
+    cursor: pointer;
+}
+
+.BigHeading {
+    padding: 0;
+    margin: 0;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.accordion-title {
+    font-size: 17.5px;
+}
+
+.AccCard {
+    float: left;
+    height: 100%;
+    padding-right: 20px;
+}
+
+.AccContent {
+    font-size: 1em;
+    word-break: break-word;
+}
+
+#righter {
+    display: table;
+}
+
+#sup {
+    vertical-align: middle;
+}
+
+.detailing {
+    margin: 10px 0 10px 0px;
+    display: none;
+    line-height: 22px;
+}
+
+.detailing span {
+    margin: 0;
+}
+
+.right-plus {
+    margin-top: -13px;
+    width: 20px;
+    height: 100%;
+    float: right;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*page banner*/
+
+.banner .Parentmm {
+    position: relative;
+}
+
+.banner .Parentmm img {
+    width: 100%;
+}
+
+.banner .Parentmm .banner_desc_cntrn {
+    color: #ffffff;
+    height: auto;
+    padding: 15px;
+    width: 50%;
+    float: left;
+    padding-left: 35px;
+    position: absolute;
+    top: 0;
+}
+
+.banner .Parentmm .banner_desc_cntrn h1 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.banner .Parentmm .banner_desc_cntrn h2 {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.banner .Parentmm .banner_desc_cntrn p {
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+
+
+/*page banner*/
+
+.Medicare .mainBanner .content,
+.Medicare .mainBanner .content h1,
+.Medicare .mainBanner .content h2,
+.Medicare .mainBanner .content h3,
+.Medicare .mainBanner .content p {
+    color: rgb(61, 61, 61);
+}
+
+.Medicare .mainBanner .content h2 {
+    font-size: 21px;
+    font-weight: bold;
+    width: 100%;
+    line-height: 29.4px;
+}
+
+.Medicare .mainBanner .content p {
+    font-size: 14px;
+}
+
+.Medicare .col-sm-12 a img {
+    width: 100% !important;
+}
+
+.Medicare .mainBanner {
+    background-position: right top;
+}
+
+.Medicare .medicare-memeber-wrapper .medicare-ID-info {
+    margin-bottom: 0;
+    min-height: 40px;
+    padding: 8px;
+    flex: 0 0 140%;
+    max-width: 140%;
+    width: 140%;
+    z-index: 1;
+}
+
+.Medicare .medicare-memeber-wrapper .medicare-ID-info span {
+    margin: 0 auto;
+    word-break: break-word;
+    display: inline-block;
+}
+
+.mainBanner .content h1 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.mainBanner .content h2 {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.mainBanner .content p {
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+
+@media only screen and (min-width: 768px) {
+    .mainBanner .content {
+        width: 60%;
+        display: block;
+        position: absolute;
+        top: 0;
+    }
+
+    .mainBanner .content h1 {
+        font-size: 30px;
+    }
+
+    .mainBanner .content h2 {
+        font-size: 20px;
+    }
+
+    .mainBanner .content p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .mainBanner .content h1 {
+        color: black;
+        font-size: 19px;
+    }
+
+    .mainBanner .content h2 {
+        color: black;
+        font-size: 20px !important;
+    }
+
+    .mainBanner .content p {
+        color: black;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .Medicare .mainBanner .content p {
+        font-size: 13.5px;
+        width: 99%;
+    }
+
+    .Medicare .mainBanner .content h2 {
+        font-size: 18px;
+        font-weight: bold;
+        width: 100%;
+        line-height: 1.1;
+    }
+}
+
+
+/*InformationBox*/
+
+.pageMainBanner .mainBanner h2 {
+    font-size: 48px;
+    font-family: 'Optima LT W01 Roman', Arial, sans-serif !important;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.pageMainBanner .banner .mainBanner .content p {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 6px;
+    line-height: 30px;
+}
+
+.pageMainBanner .banner {
+    margin: 0;
+}
+
+.pageWrapper.col-md-6:nth-child(2) {
+    padding: 0 0 0 5px;
+}
+
+.pageWrapper.col-md-6:nth-child(1) {
+    padding: 0 5px 0 0;
+}
+
+.layout .pageWrapper.col-md-6 {}
+
+.layout>.row {
+    padding: 0 15px;
+}
+
+.mainContent .content .top .left,
+.mainContent .content .top .right {
+    width: 100%
+}
+
+.mainContent .content .top .left .box,
+.mainContent .content .top .right .box {
+    width: 100%;
+}
+
+.Business .col-md-6.col-xs-12.ImageWithText-content {
+    max-width: 325px;
+    min-height: 160px;
+    margin: 0 4px 0 0;
+    padding: 8px;
+    border: 1px solid #ddd;
+    position: relative;
+    font-size: 14px;
+}
+
+
+/*healthcare popup*/
+
+.healthcare-professionals-popup {
+    text-align: center;
+    height: auto;
+    background: #fff !important;
+    width: 620px;
+    font-size: 0;
+    border-radius: 0px;
+}
+
+.healthcare-professionals-popup #cboxLoadedContent {
+    margin: 7px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 604px;
+    height: auto;
+}
+
+.healthcare-professionals-popup .healthcare-pad {
+    padding: 0;
+}
+
+#healthcare-professionals-popupModal .modal-dialog {
+    max-width: 620px;
+    -webkit-transform: translate(0, calc(50vh - 50%));
+    -ms-transform: translate(0, 50vh) translate(0, -50%);
+    -o-transform: translate(0, calc(50vh - 50%));
+    transform: translate(0, 50vh) translate(0, -50%);
+    margin: 0 auto;
+}
+
+div#healthcare-professionals-popupModal {
+    padding: 15px !important;
+}
+
+.healthcare-professionals-popup .yes-no-buttons {
+    padding: 0;
+    margin: 0 0 25px;
+    height: auto;
+}
+
+.healthcare-professionals-popup h3 {
+    margin-top: 0;
+    font-size: 24px !important;
+    font-weight: normal;
+    line-height: 31.2px;
+    font-family: Verdana, Arial, sans-serif;
+    padding-bottom: 20px;
+}
+
+.healthcare-professionals-popup #nothealthcare {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    display: inline-block;
+}
+
+.healthcare-professionals-popup .changeBtn_single {
+    color: #0395a2;
+    text-decoration: none;
+    font-size: 16px;
+    border: solid 1px #cdcdcd;
+    background: repeat-x 0 0 #ededed;
+    padding: 7px 20px 6px;
+    margin: 0 0 20px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.healthcare-professionals-popup .changeBtn:hover,
+.healthcare-professionals-popup .changeBtn_single:hover {
+    background: repeat-x 0 0 #00a7ab;
+    color: #fff;
+}
+
+.healthcare-professionals-popup a.not {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.healthcare-professionals-popup #nothealthcare a:link {
+    color: #0072BC;
+    text-decoration: none;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.healthcare-professionals-popup #nothealthcare a:hover {
+    color: #0395a2;
+    text-decoration: none;
+}
+
+.healthcare-professionals-popup #cboxClose {
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    background: no-repeat 0 0;
+    background-position: -93px -77px;
+    width: 34px;
+    height: 32px;
+    border: 0;
+    font-size: 0;
+}
+
+
+/* mobile view */
+
+@media only screen and (max-width: 767px) {
+    .mainBanner .content {
+        width: 100%;
+        padding: 15px;
+        position: relative;
+        margin-top: 202px;
+        background: #efefef;
+        border: 1px solid #dedede;
+        display: table;
+    }
+
+    .healthcare-professionals-popup {
+        width: 100%;
+    }
+
+    .healthcare-professionals-popup #cboxLoadedContent {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+
+/*Simple click header*/
+
+#msgBanner {
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(0, 160, 175);
+    min-height: 40px;
+    width: 100%;
+    font-size: 12pt;
+    border: 1px solid #dedede;
+    height: 46px;
+    margin-bottom: 0 !important;
+}
+
+.StaticPageLayout #msgBanner #CurrentYear p {
+    color: white;
+    padding-top: 3px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.StaticPageLayout .mitab th {
+    background-color: #fff;
+    padding: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    font-size: 14.0625px;
+    text-align: left;
+    line-height: 21.685px;
+}
+
+.StaticPageLayout .mitab td {
+    padding: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    font-size: 14.0625px;
+    line-height: 21.685px;
+}
+
+.StaticPageLayout .ImageWithText-content .mihmp {
+    font-size: 14px;
+}
+
+.StaticPageLayout .ImageWithText-content p.miptgms {
+    margin-top: -8px !important;
+}
+
+.StaticPageLayout .ImageWithText-content p.miabtchoc {
+    font-size: 14.05px !important;
+}
+
+.StaticPageLayout .PageBannerLeftHandSideBanner .row .col-sm-12 .brokerBanner.right img .brokerbanner {
+    right: -14px;
+    margin: 1em 0px 0px 10px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.PageBannerLeftHandSideBanner .brokerBanner .brokerBannerText.rtComMedCov h2 {
+    margin: 1em 0px 0px 0px !important;
+}
+
+.PageBannerLeftHandSideBanner .brokerBannerText.lftComMedCov {
+    margin: 20px 0px 0px 0px;
+}
+
+.PageBannerLeftHandSideBanner .comBrkrBtn,
+.PageBannerLeftHandSideBanner .comBrkrBtn a {
+    width: 250px;
+}
+
+.PageBannerLeftHandSideBanner .brokerBanner .brokerBannerText .btn-broker {
+    margin: 27px 0px 15px 0px;
+}
+
+.PageBannerLeftHandSideBanner .brokerBanner .brokerBannerText .btn-broker:hover {
+    background-color: #33b3bf !important;
+}
+
+.PageBannerLeftHandSideBanner .brokerBanner .brokerBannerText .btn-broker a:hover {
+    text-decoration: none;
+}
+
+.StaticPageLayout .pay-online-guest {
+    margin: 67px 0px 0px 15px;
+}
+
+.MainContentRight .pay-online-guest {
+    margin: 0px 0px 0px 15px;
+}
+
+.StaticPageLayout .PageBannerLeftHandSideBanner .brokerBanner .brokerBannerText {
+    padding-left: 0px;
+}
+
+.StaticPageLayout .PageBannerLeftHandSideBanner .brokerBanner .brokerBannerText h6 {
+    font-size: 20px !important;
+    font-family: Arial;
+    color: #717171 !important;
+    line-height: 15px !important;
+    font-weight: normal !important;
+    padding-top: 83px !important;
+    margin: 0 !important;
+}
+
+.StaticPageLayout .PageBannerLeftHandSideBanner .brokerBanner .brokerBannerText h2 {
+    font-size: 40px !important;
+    color: #717171 !important;
+    line-height: 40px !important;
+    margin: 0 !important;
+}
+
+.StaticPageLayout .PageBannerLeftHandSideBanner .brokerBanner .brokerBannerText p {
+    font-size: 14px !important;
+    color: #717171 !important;
+    line-height: 20px !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+.StaticPageLayout .PageBannerLeftHandSideBanner .brokerBanner .brokerBannerText .brokerBannerBTN {
+    background: #754760;
+}
+
+.MainContentRight {
+    padding-right: 10px;
+}
+
+.MainContentRight .banner .banner_desc_cntrn {
+    display: inline-block;
+    width: 440px;
+    float: left;
+}
+
+.MainContentRight .banner .banner-content {
+    position: relative;
+    float: left;
+    width: 80%;
+    padding: 10px;
+    z-index: 2;
+    min-height: 139px;
+}
+
+.MainContentRight .banner h2,
+.MainContentRight .banner h3 {
+    margin: 7px 0;
+    line-height: 1.4;
+    font-size: 21px;
+}
+
+.MainContentRight .banner p {
+    margin: 0 0 14px 0;
+    padding: 0;
+    line-height: 1.4;
+    font-size: 14px;
+}
+
+.MainContentRight .banner {
+    position: relative;
+    display: inline-block;
+    background: repeat-x left top #EFEFEF;
+    width: 100%;
+    margin: 0 0 20px 0;
+    border: 1px solid #dedede;
+    min-height: 182px;
+}
+
+.MainContentRight .banner.extra-space .button-green.banner-button {
+    margin-top: 0;
+}
+
+.MainContentRight .banner.extra-space {
+    padding-bottom: 20px;
+}
+
+
+.MainContentRight #main-content .banner {
+    width: 140%;
+    z-index: 1;
+}
+
+.MainContentRight .banner img {
+    float: right;
+    margin-left: -90px;
+    padding: 1px 1px 1px 0px;
+}
+
+.MainContentRight .Shopping img {
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.MainContentRight .Shopping p {
+    margin: 0 0 14px 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+.MainContentRight .Shopping a {
+    color: #00909d;
+    text-decoration: none;
+}
+
+.MainContentRight .Shopping a img:hover,
+.Shopping a img:visited {
+    color: #01909c;
+    float: left;
+    background: none;
+    margin: 0 10px 0 0;
+    padding: 8px;
+    border: 0px solid #ddd;
+}
+
+.MainContentRight .landing-module-wrapper {
+    padding: 0 15px;
+}
+
+.MainContentRight .landing-module {
+    float: left;
+    display: block;
+    background: #fff;
+    width: 50%;
+    min-height: 190px;
+    margin: 0;
+    padding: 10px 0 10px 20px;
+}
+
+.MainContentRight .landing-module h2 {
+    margin: 0 0 10px 0;
+    font-size: 21.0938px;
+    line-height: 27.4219px;
+    color: #00909d;
+}
+
+.MainContentRight .landing-module .linkClass {
+    color: #00909d;
+    text-decoration: none;
+    float: left;
+}
+
+.MainContentRight .landing-module .grid-image-heading {
+    color: #3d3d3d;
+    margin: 0 0 10px 0;
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+
+.MainContentRight .landing-module p {
+    font-size: inherit;
+    margin-bottom: 0;
+}
+
+.MainContentRight .medicare-ID-info {
+    background-color: rgb(207, 228, 231);
+    font-size: 12pt;
+    border: 1px solid #dedede;
+    padding: 10px 8px;
+    font-weight: bold;
+}
+
+.MainContentRight .medicare-ID-info p {
+    font-size: 16px;
+    width: 98%;
+    text-align: center;
+    margin-bottom: 0;
+    position: relative;
+    top: 2px;
+}
+
+.MainContentRight .mediarePDFCopm .col-md-12:nth-child(1) {
+    margin-bottom: 50px;
+}
+
+.MainContentRight .medicare-ID-info a.close-medicare-ID-info {
+    position: absolute;
+    top: 7px;
+    right: 8px;
+}
+
+.MainContentRight .medicare-memeber-wrapper .landing-module .linkClass {
+    float: none;
+    width: 100%;
+}
+
+.MainContentRight .medicare-memeber-wrapper .Shopping p {
+    margin: 0;
+}
+
+.MainContentRight .medicare-memeber-wrapper .services h1 {
+    margin: 0 0 10px 0;
+    font-family: Arial, sans-serif;
+    line-height: 28.125px;
+    font-size: 28.125px;
+}
+
+.MainContentRight .medicare-memeber-wrapper .Shopping img {
+    margin: 15px auto;
+}
+
+.MainContentRight .medicare-memeber-wrapper {
+    padding: 0;
+}
+
+.MainContentRight .medicare-memeber-wrapper .row {
+    padding: 0 15px;
+}
+
+.MainContentRight .landing-module img:hover {
+    background: #e5e6e4;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    opacity: 0.8;
+}
+
+.MainContentRight .medicare-memeber-wrapper .landing-module img {
+    width: 200px;
+    padding: 5px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.MainContentRight .medicare-memeber-wrapper .landing-module p {
+    width: 100%;
+}
+
+.MainContentRight .mediarePDFCopm a {
+    top: 8px;
+    position: relative;
+    font-size: 14px;
+}
+
+.MainContentRight .medicare-memeber-wrapper .mediarePDFCopm {
+    margin-top: 10px;
+}
+
+.MainContentRight .medicare-memeber-wrapper .landing-module div ul li a {
+    text-align: left;
+    padding: 0;
+}
+
+.MainContentRight.Medicare .medicare-memeber-wrapper h1 {
+    font-size: 28.125px;
+    line-height: 28.125px;
+    font-family: Arial, sans-serif;
+}
+
+.MainContentRight .medicare-memeber-wrapper .services h1 {
+    margin: 0 0 10px 0;
+    font-family: Arial, sans-serif;
+    line-height: 28.125px;
+    font-size: 28.125px;
+}
+
+.MainContentRight .medicare-memeber-wrapper .landing-module div a {
+    text-align: right;
+    display: block;
+    clear: both;
+}
+
+
+/**tabletview***/
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .MainContentRight {
+        padding-right: 0;
+    }
+
+    .MainContentRight .medicare-ID-info p {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .MainContentRight .landing-module .linkClass {
+        float: none;
+    }
+
+    .MainContentRight .landing-module img {
+        margin-bottom: 10px;
+    }
+
+    .StaticPageLayout .ImageWithText-content .sorting {
+        margin-bottom: 20px;
+    }
+
+    .StaticPageLayout .ImageWithText-content .sorting div {
+        display: inline-block;
+    }
+}
+
+
+/* mobile view */
+
+@media only screen and (max-width: 767px) {
+    .Artical_contentPrivacyPractices .coronaimg {
+        width: auto;
+    }
+
+    .PageBannerLeftHandSideBanner .brokerBannerText .rtMedCov {
+        margin: 30px 0px 0px 0px !important;
+    }
+
+    .PageBannerLeftHandSideBanner .brokerBanner .brokerBannerText .btn-broker {
+        margin: 0px 10px 0px 0px !important;
+    }
+
+    .MainContentRight .banner .banner_desc_cntrn {
+        width: 100%;
+    }
+
+    .MainContentRight .medicare-memeber-wrapper .landing-module img {
+        width: auto;
+        height: auto;
+    }
+
+    .MainContentRight .landing-module .linkClass {
+        float: none;
+    }
+
+    .MainContentRight .medicare-memeber-wrapper .landing-module div {
+        width: 100% !important;
+        padding: 15px 0;
+    }
+
+    .MainContentRight .banner img {
+        float: left;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .MainContentRight .medicare-memeber-wrapper .landing-module div a {
+        text-align: left;
+    }
+
+    .MainContentRight .landing-module {
+        width: fit-content;
+        padding-left: 5px;
+    }
+
+    .MainContentRight .banner .banner-content {
+        width: 100%;
+    }
+
+    .MainContentRight {
+        padding: 15px 0;
+        height: auto !important;
+    }
+
+    .MainContentRight .banner,
+    .MainContentRight .banner.extra-space {
+        padding: 0;
+        border: 0;
+        width: 100%;
+        display: block;
+    }
+
+
+
+    .MainContentRight #main-content .banner {
+        width: 100%;
+    }
+
+    .MainContentRight .medicare-ID-info p {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .MainContentRight .medicare-ID-info p:before {
+        left: 8%;
+    }
+
+    .MainContentRight .medicare-ID-info a.close-medicare-ID-info {}
+}
+
+.Artical_contentPrivacyPractices .coronaimg {
+    float: right;
+    width: 514px;
+    height: 256px;
+}
+
+.Artical_contentPrivacyPractices h2 {
+    margin: 0 0 10px 0;
+    font-size: 19.6875px;
+    line-height: 27.5625px;
+}
+
+.Artical_contentPrivacyPractices p {
+    margin: 0 0 15px 0px;
+    padding: 0;
+    line-height: 1.6 !important;
+    font-size: 14.0625px;
+}
+
+.Artical_contentPrivacyPractices .higlight-box {
+    border: 1px solid #777;
+    background: #ceeff7;
+    padding: 5px !important;
+    margin-right: 15px;
+}
+
+.Artical_contentPrivacyPractices ul {
+    margin-bottom: 10px;
+    margin-left: 15px;
+    padding: 0 0 0 0px;
+}
+
+.Artical_contentPrivacyPractices .divider-line {
+    height: 1px;
+    border: none;
+    background-color: #dadada;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+.Artical_contentPrivacyPractices ul li {
+    line-height: 1.4;
+    list-style-type: disc;
+    font-size: 14px;
+}
+
+
+/*enquiry form */
+
+.enquiryform input[type="submit"] {
+    display: block;
+    float: left;
+    background: repeat-x 0 0 #00a7ab;
+    margin: 7px;
+    padding: 5px 16px 6px;
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #067a91;
+    border: 1px solid #0292a0;
+    border-top: 1px solid #75d7e2;
+    border-left: 1px solid #75d7e2;
+    outline: 1px solid #ccc;
+}
+
+.enquiryform input[type="submit"]:hover {
+    opacity: .8;
+}
+
+.enquiryform input[type=text] {
+    background: repeat-x 0 0 transparent;
+    border-top: solid 1px #aaa;
+    border-left: solid 1px #aaa;
+    border-bottom: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    height: 25px;
+    width: 271px;
+    color: #3d3d3d
+}
+
+.enquiryform input[type=email] {
+    background: repeat-x 0 0 transparent;
+    border-top: solid 1px #aaa;
+    border-left: solid 1px #aaa;
+    border-bottom: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    height: 25px;
+    width: 271px;
+    color: #3d3d3d
+}
+
+.enquiryform input[type=tel] {
+    background: repeat-x 0 0 transparent;
+    border-top: solid 1px #aaa;
+    border-left: solid 1px #aaa;
+    border-bottom: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    height: 25px;
+    width: 271px;
+    color: #3d3d3d
+}
+
+.enquiryform textarea {
+    background: repeat-x 0 0 transparent;
+    border-top: solid 1px #aaa;
+    border-left: solid 1px #aaa;
+    border-bottom: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    width: 271px;
+    height: 75px;
+    color: #3d3d3d
+}
+
+.enquiryform input[type=radio] {
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+.enquiryform #label {
+    padding: 0px;
+}
+
+.enquiryform label.eqInputLabel {
+    float: right;
+}
+
+.enquiryform label.eqInputLabel1 {
+    float: right;
+}
+
+.enquiryform p {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.enquiryform .row {
+    margin-bottom: 15px;
+}
+
+.enquiryform .ddcommon {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.enquiryform .ddcommon select {
+    color: #333;
+    background: repeat-x;
+    height: 26px;
+    font: normal 14px Arial, sans-serif;
+    line-height: normal !important;
+    zoom: 1;
+    width: 271px;
+    border: 0;
+    background-size: contain;
+    border-left: 1px solid #ccc;
+    background-position: 10px 0px;
+    border-radius: 0;
+}
+
+.enquiryform .ddcommon::before,
+.custom-dropdown::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+}
+
+.enquiryform .ddcommon::after {
+    height: 1em;
+    font-size: .625em;
+    line-height: 1;
+    right: 1.2em;
+    top: 50%;
+}
+
+.enquiryform .ddcommon::before {
+    right: 0;
+    top: 0px;
+    bottom: 0;
+    border-radius: 0 3px 3px 0;
+    width: 26px;
+    height: 25px;
+    background: repeat scroll -244px -23px transparent;
+}
+
+.enquiryform .ddcommon select[disabled] {
+    color: rgba(0, 0, 0, .3);
+}
+
+.enquiryform .ddcommon select[disabled]::after {
+    color: rgba(0, 0, 0, .1);
+}
+
+.enquiryform .ddcommon::before {
+    background-color: rgba(0, 0, 0, .15);
+}
+
+.enquiryform .ddcommon::after {
+    color: rgba(0, 0, 0, .4);
+}
+
+@media (max-width: 767px) {
+    .enquiryform label {
+        float: left;
+    }
+}
+
+.enquiryform .eqInputLabel::before {
+    display: block;
+    content: "*";
+    color: red;
+    position: absolute;
+    left: -10px;
+}
+
+.enquiryform .eqInputLabel {
+    position: relative;
+}
+
+.enquiryform .col-xs-1.col-sm-3.col-md-4 {
+    padding-right: 0px;
+    padding-left: 15px;
+}
+
+.enquiryform .col-xs-1.col-sm-2.col-md-6 {
+    padding-right: 15px;
+    padding-left: 10px;
+}
+
+.enquiryform .col-xs-1.col-sm-3.col-md-5 {
+    margin-left: -39px;
+}
+
+.enquiryform .col-xs-1.col-sm-2.col-md-6.RadioButton {
+    margin-left: -17px;
+}
+
+.display-success-msg {
+    display: none;
+}
+
+.display-failure-msg {
+    display: none;
+}
+
+.hide-error-field {
+    display: none;
+}
+
+.hide-error-fieldphone {
+    display: none;
+}
+
+.hide-error-fieldemail {
+    display: none;
+}
+
+.show-error-field {
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: red;
+}
+
+.show-error-fieldphone {
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: red;
+}
+
+.show-error-fieldemail {
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: red;
+}
+
+
+/* Information Box*/
+
+.InfoBox {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.InfoBox .headings h3 {
+    margin: 0;
+    padding: 12px 0 7px 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22.5px;
+}
+
+.InfoBox .headings h3 a {
+    color: #fff;
+}
+
+.InfoBox .headings h4 {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.InfoBox a {
+    color: #00909d;
+    text-decoration: none;
+}
+
+.InfoBox a:hover {
+    text-decoration: underline;
+}
+
+.InfoBox .box {
+    /*Fix for production 404 Error for resource GET /_Content/Images/aboutTopBg.jpg */
+    width: 506px;
+    min-height: 187px;
+    padding: 22px;
+    border: 1px solid #ccc;
+    border-top: 0;
+    margin-top: 0;
+}
+
+.InfoBox .headings {
+    background: no-repeat 0 0 #01909D;
+    width: 506px;
+    min-height: 45px;
+    margin: 0;
+    padding: 0 22px 12px;
+    border: 1px solid #01909d;
+}
+
+.InfoBox .left {
+    display: block;
+    float: left;
+    width: 506px;
+    margin: 0 0 0 1px;
+    padding: 0;
+}
+
+.InfoBox ul li {
+    line-height: 1.4;
+}
+
+.InfoBox ul li span {
+    color: #00909d;
+    font-size: .7em;
+}
+
+.InfoBox ul {
+    list-style: none;
+    padding: 0 0 0 0px;
+    float: left;
+    width: 228px;
+    margin: -13px 0 0 -5px;
+}
+
+.InfoBox .box-image {
+    float: right;
+    margin: -22px -22px 0 0;
+}
+
+
+/*Individual th Header styles*/
+
+table.plan th.one {
+    width: 128px;
+}
+
+table.plan th.two {
+    width: 154px;
+}
+
+table.plan th.three {
+    width: 545px;
+}
+
+
+/*Common th Header BG styles*/
+
+table.plan th {
+    background: #3F9EAD repeat-x 0 0;
+    padding: 10px 0;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    line-height: 1.2em;
+    color: #fff;
+}
+
+
+/*Commonmon td styles*/
+
+table.plan td {
+    background: #efedf9;
+    padding: 10px;
+    line-height: 1.2;
+    border-top: 1px solid #fff;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+
+/*Common First td styles*/
+
+table.plan td.one {
+    background: #b1a5e9;
+    width: 123px;
+    color: #fff;
+    border-bottom: 2px solid #b1a5e9;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 2px solid #fff;
+}
+
+/*Common Second td styles*/
+
+table.plan td.two {
+    width: 150px;
+}
+
+
+/*Common Third td styles*/
+
+table.plan td.three {
+    width: 545px;
+}
+
+
+/*Common Second Row td styles*/
+
+table.plan td.one.purple-two {
+    background: #9283d9;
+    border-bottom: 2px solid #9283d9;
+}
+
+/*Common Third Row td styles*/
+
+table.plan td.one.purple-three {
+    background: #7262c1;
+    border-bottom: 2px solid #7262c1;
+}
+
+.viewplanheading {
+    color: #626466 !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 36px !important;
+    font-weight: bold;
+}
+
+
+/*accordian in static pages*/
+
+.pageContent .accordion li .ui-accordion-content {
+    height: auto !important;
+    color: #000;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.pageContent .accordion li .ui-accordion-content p {
+    font-size: 13px !important;
+}
+
+.pageContent ul.accordion li div li {
+    list-style: none;
+}
+
+.pageContent ul.accordion>li {
+    background: #ccc;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    list-style-type: none;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    float: left;
+    display: block;
+    width: 100%;
+}
+
+.pageContent ul.accordion {
+    margin-left: 0;
+}
+
+.pageContent ul.accordion li {
+    list-style: none;
+}
+
+.pageContent ul.accordion li a.acc-grey:focus {
+    outline: none;
+}
+
+.pageContent ul.accordion li a.acc-grey {
+    color: #3d3d3d;
+    text-decoration: none;
+    font-size: 13px !important;
+    border-bottom: 1px solid #fff;
+    font: bold 1.1em/2em Arial, sans-serif;
+    padding: 0 10px;
+    display: block;
+    cursor: pointer;
+    background: no-repeat center right;
+}
+
+
+#main-content .medicare-ID-error.inthreecolumn {
+    width: 140%;
+}
+
+.medicare-ID-error {
+    color: red;
+    font-size: 14px;
+}
+
+.pageContent ul.accordion li a.acc-grey.ui-state-active {
+    background: no-repeat center right;
+}
+
+.pageContent ul.accordion li div {
+    padding: 20px;
+    background: #e7e7e7;
+    clear: both;
+    float: left;
+    width: 100%;
+    line-height: 18px;
+}
+
+.ePlanMolHP {
+    max-width: 75%;
+    margin-left: -8px !important;
+}
+
+.mainContent .ImageWithText.Artical_contentPrivacyPractices .ImageWithText-content dd {
+    margin: 0 0 0 40px;
+    line-height: 19px;
+}
+
+.mainContent .ImageWithText.Artical_contentPrivacyPractices .ImageWithText-content dt b {
+    font-weight: bold;
+}
+
+.mainContent .ImageWithText.Artical_contentPrivacyPractices .ImageWithText-content dl {
+    font-size: 14px;
+}
+
+.MainContentRight-pageTitle h2 {
+    margin: 0 0 10px 10px;
+    font-size: 19.6875px;
+    font-weight: bold;
+    color: #3d3d3d;
+}
+
+.Artical_contentPrivacyPractices .txt-bold {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.Artical_contentPrivacyPractices .list-header {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.Artical_contentPrivacyPractices .mandatory {
+    color: red;
+}
+
+.Artical_contentPrivacyPractices a {
+    color: #00909d;
+    text-decoration: none;
+}
+
+.StaticPageLayout .ImageWithText-content h3.miheading {
+    margin-top: 5px !important;
+}
+
+tr.oddrow.ms-rteTableHeaderRow-Molina_AltColoredRows_WithBorders {
+    font-size: 14px;
+}
+
+.ms-rteTable-Molina_AltColoredRows_WithBorders td {
+    font-size: 14px
+}
+
+.MainContentRight .ms-rteForeColor-2 p {
+    font-size: 14px;
+}
+
+.Artical_contentPrivacyPractices .ms-rteForeColor-2 {
+    color: red;
+}
+
+.StaticPageLayout table.optpFormContact td {
+    padding: 0px;
+    border: 1px solid #fff;
+    font-size: 14.06px;
+    line-height: 18px;
+}
+
+.StaticPageLayout table.optpFitness td {
+    padding: 1px;
+    border: 1px solid #fff;
+    font-size: 14.06px;
+    line-height: 18px;
+}
+
+.StaticPageLayout .fitness {
+    border: none !important;
+}
+
+.StaticPageLayout .fitness td {
+    padding: 0 !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-left: none !important;
+    line-height: unset !important;
+    font-size: 14px;
+}
+
+.StaticPageLayout .forms {
+    border: none !important;
+}
+
+.StaticPageLayout .forms td {
+    padding: 0 !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-left: none !important;
+    line-height: unset !important;
+    font-size: 14px;
+}
+
+.StaticPageLayout table td.cellwidth1 {
+    width: 30%;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: none;
+    font-size: 14px;
+    line-height: 18px;
+    vertical-align: top;
+}
+
+.GetActive.container {
+    padding: 0;
+    background: transparent;
+    margin-bottom: 6px;
+}
+
+.pageMainBanner .mainBanner {
+    min-height: 248px;
+}
+
+.pageMainBanner .banner .mainBanner .content p.healthy-subheading {
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    font-weight: normal;
+    line-height: 1.4;
+    margin-bottom: 6px;
+}
+
+.pageMainBanner .mainBanner .content {
+    width: 50%;
+}
+
+.alert .FlAlertHead {
+    padding-bottom: 15px;
+    padding-left: 4px;
+    padding-top: 0px !important;
+    margin-top: 5px !important;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+.alert .FlAlertContent {
+    padding: 10px !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 16.5px !important;
+    font-weight: bold;
+    margin-bottom: 0px;
+    line-height: 18px;
+}
+
+.MainContentRight .medicare-memeber-wrapper .landing-module .left {
+    display: contents !important;
+    font-size: 14PX;
+}
+
+.StaticPageLayout .additional-behavioral td {
+    padding: 0;
+    border: 1px solid #3d3d3d;
+}
+
+.ProviderStaticPages table.ms-rteTable-6 {
+    text-align: left;
+    line-height: 2.5;
+    vertical-align: top;
+    color: #000000;
+    font-size: 14px;
+}
+
+.ProviderStaticPages table.ms-rteTable-6 img {
+    margin-top: -15px;
+}
+
+.StaticPageLayout .ImageWithText-content .printed-copies {
+    margin-bottom: 0 !important;
+}
+
+.ny-crisis-support {
+    margin-bottom: 0px;
+    padding-top: 25px;
+}
+
+.StaticPageLayout .ImageWithText-content .MemberIdImg img {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    top: -2px;
+    display: block;
+    margin-right: auto !important;
+}
+
+.CarouselNY {
+    margin-left: 8px;
+    margin-bottom: 3px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.CarouselNY ul li {
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+p.ms-rteElement-Copy-19pxNY {
+    margin-top: 0px;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+
+.MainContentRight .landing-module img.ImgEp {
+    border-width: medium;
+    border-style: none;
+    border-color: initial;
+    height: auto;
+    width: auto;
+    background: none 0% 0% repeat scroll transparent;
+}
+
+.MainContentRight .landing-module img.ImgEp:hover {
+    opacity: unset;
+}
+
+.modal {
+    transform: scale(0);
+    opacity: 0;
+    -webkit-transition: all .25s linear;
+    -o-transition: all .25s linear;
+    transition: all .25s linear;
+}
+
+.modal.show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.StaticPageLayout .ViewBenNY th.drkbluebg {
+    padding: 10px !important;
+    border: 1px solid #fff !important;
+    text-align: center !important;
+    background: #31869c !important;
+    color: #fff !important;
+    line-height: 1.4;
+    font-size: 14px;
+    width: 300px;
+}
+
+.StaticPageLayout .ViewBenNY th.drkgraybg.wdt {
+    width: 223px;
+    font-size: 14px;
+}
+
+.StaticPageLayout .ViewBenNY th.drkgraybg {
+    background: #848284 !important;
+    color: #fff !important;
+    padding: 10px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.StaticPageLayout .ViewBenNY td.lightbluebg {
+    background: #deeff7 !important;
+    color: #31869c !important;
+    padding: 10px !important;
+    border: 1px solid #fff !important;
+    text-align: center !important;
+    line-height: 1.4 !important;
+}
+
+.StaticPageLayout .ViewBenNY td.lightgraybg {
+    background: #dedbde;
+    color: #31869c;
+    padding: 10px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.StaticPageLayout .ViewBenNY td.drkgraybg {
+    background: #848284;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.StaticPageLayout .ViewBenNY td.drkbluebg {
+    background: #31869c;
+    color: #fff;
+}
+
+.StaticPageLayout .ViewBenNY td {
+    color: #31869c;
+    padding: 10px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.StaticPageLayout .ImageWithText-content .msheadstr div {
+    font-size: 14.0625px;
+    line-height: 19.6875px;
+}
+
+.StaticPageLayout .ImageWithText-content .msheadstr ul {
+    margin-bottom: 0px;
+}
+
+.PageBannerLeftHandSideBanner .brokerBanner .brokerBannerText h2 {
+    margin-bottom: 10px !important;
+    margin-left: 0 !important;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.PageBannerLeftHandSideBanner .brokerBanner .brokerBannerText p {
+    /*line-height: 16.8px;*/
+}
+
+.PageBannerLeftHandSideBanner .brokerBanner .brokerBannerText p strong {
+    font-size: 20px;
+}
+
+.MainContentRight .medicare-memeber-wrapper h2.static-heading1 {
+    font-size: 19.5px;
+}
+
+.StaticPageLayout .msmultilangtab td {
+    text-align: inherit;
+}
+
+.disclaimerfl {
+    border: #00909d 1px solid !important;
+    height: 90px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #676767;
+    background-color: #fff;
+    padding-left: 0;
+}
+
+.AlertFlHeading {
+    position: relative;
+    text-align: left;
+    color: #3d3d3d;
+    line-height: 1;
+    border-bottom: none;
+    font-size: 32px;
+    font-family: 'optima LT W01 Roman', Arial, sans-serif;
+    font-weight: normal;
+    background-color: #fff;
+}
+
+.AlertFlHeadingPara {
+    left: 35px;
+    top: 25px;
+    position: absolute;
+}
+
+.AlertFlHeadingPara p {
+    font-size: 17px;
+    line-height: normal;
+    width: 470px;
+    font-family: Arial, sans-serif;
+    color: #000;
+    margin: 1em 0;
+}
+
+.AlertFlHeading .ms-rteElement-Heading-32px {
+    font-size: 32px;
+    font-family: 'optima LT W01 Roman', Arial, sans-serif;
+    color: #fff;
+    font-weight: normal;
+}
+
+.AlertFlHeading img {
+    width: 100% !important;
+    padding-bottom: 7px;
+    padding-top: 15px;
+    height: 314px;
+}
+
+.AlertFlHeading .ms-rteElement-Heading-32px p {
+    font-size: 17px;
+}
+
+.StaticPageLayout .ImageWithText .mscnapbld strong {
+    font-weight: lighter;
+}
+
+.StaticPageLayout .benefits_accordion_cntrn_ms .benefits_inner_accordion .titledivcntrn:focus {
+    outline: 0;
+}
+
+.StaticPageLayout .benefits_accordion_cntrn_ms .benefits_accordion .titledivcntrn a {
+    color: #333;
+    font-weight: bold;
+    padding: 3px 13px;
+}
+
+.StaticPageLayout .benefits_accordion_cntrn_ms .benefits_accordion .blockdivcntrn p {
+    margin: 10px 0 0 25px !important;
+    line-height: 23px !important;
+    padding-bottom: 10px;
+}
+
+.benefits_accordion_cntrn_ms .benefits_accordion .benefits_accordion_header.ui-accordion-header-active {
+    border-bottom: none;
+}
+
+.submit-contactform {
+    background: #D1D3D4;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 12px;
+    width: 198px;
+    height: 40px;
+    text-shadow: 0px 0px 0px;
+    cursor: default;
+    border: none;
+    margin-left: 17px;
+    margin-top: 15px;
+}
+
+.mscmnblk a {
+    font-weight: bold;
+    line-height: 2em;
+    display: block;
+    margin-left: -27px;
+}
+
+.benefits_accordion_cntrn_ms .benefits_accordion.mscmnblk a.benefits_accordion_header .arrow_btn_img {
+    right: 715px;
+}
+
+@media only screen and (max-width: 767px) {
+    .submit-contactform {
+        background: #D1D3D4;
+        color: #FFF;
+        font-weight: bold;
+        font-size: 12px;
+        width: 198px;
+        height: 40px;
+        text-shadow: 0px 0px 0px;
+        cursor: default;
+        border: none;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+}
+
+
+/*for page employee password reset*/
+
+.ImageWithText-content .coverage-group {
+    display: inline-block;
+    vertical-align: top !important;
+    text-align: center !important;
+}
+
+.ImageWithText-content .coverage-group .step1 {
+    margin: 0px auto;
+    color: #ffffff;
+    line-height: normal;
+    text-align: left;
+    width: 209px;
+    height: 320px;
+}
+
+.ImageWithText-content .coverage-group .step2 {
+    color: #ffffff;
+    line-height: normal;
+    text-align: left;
+    width: 209px;
+    height: 320px;
+}
+
+.ImageWithText-content .coverage-group .step3 {
+    color: #ffffff;
+    line-height: normal;
+    text-align: left;
+    width: 209px;
+    height: 320px;
+}
+
+.ImageWithText-content ul.landing-ul {
+    list-style: disc !important;
+    text-align: left;
+    display: inline-block !important;
+    vertical-align: top !important;
+    width: 25% !important;
+}
+
+.ImageWithText-content .landing-ul li {
+    margin-bottom: 5px !important;
+    line-height: 1 !important;
+    font-size: 13px !important;
+}
+
+.ImageWithText-content .left-border {
+    border-left: 1px solid #636466;
+}
+
+.alertTX {
+    padding: 10px !important;
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(209, 95, 39) !important;
+    font-size: 16px !important;
+    margin-bottom: 0;
+}
+
+.alertTX span {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+    .AlertFlHeading {
+        padding: 0 10px 30px 10px;
+        border-bottom: none;
+    }
+
+    #main-content .medicare-ID-error.inthreecolumn {
+        width: 100%;
+    }
+
+    .AlertFlHeading img {
+        width: 100% !important;
+    }
+
+    .AlertFlHeading p {
+        font-size: 15px;
+        margin-bottom: 0;
+        padding-top: 0;
+        width: 100% !important;
+    }
+
+    .AlertFlHeading .ms-rteElement-Heading-32px {
+        padding-right: 0;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .AlertFlHeading img {
+        height: auto;
+        width: inherit !important;
+    }
+
+    .alert .FlAlertHead {
+        width: 100% !important;
+    }
+
+    .alert .FlAlertContent {
+        width: 100% !important;
+    }
+
+    .alert p {
+        width: 100% !important;
+    }
+}
+
+#FeedbackForm .g-recaptcha {
+    width: auto;
+    margin-bottom: 35px;
+    margin-left: 130px;
+    margin-top: 10px;
+    transform: scale(0.8);
+}
+
+@media (min-width:768px) and (max-width: 1023px) {
+    #ModuleForm iframe {
+        transform: scale(0.50);
+        position: relative;
+        left: -73px;
+    }
+}
+
+/*google-map*/
+.map {
+    height: 350px;
+    width: 95%;
+}
+
+/*Home-Accordian*/
+.home-accordion {
+    background: transparent !important;
+    max-width: 1028px;
+    height: auto;
+    margin-bottom: 6px;
+    color: #717171;
+    font-family: Arial, sans-serif !important;
+    font-size: 0.9em !important;
+    padding-left: unset;
+    padding-right: unset;
+    margin-top: 5px;
+}
+
+.home-accordion h3 {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0;
+    color: #717171;
+    position: relative;
+    background: #fff;
+}
+
+.home-accordion .card-header {
+    padding: 0;
+    border-bottom: none;
+}
+
+.home-accordion .plus-minus {
+    display: block;
+    width: 13px;
+    height: 13px;
+    float: right;
+    position: relative;
+    cursor: pointer;
+    top: 4px;
+}
+
+.home-accordion .vrlline {
+    display: block;
+    width: 3px;
+    height: 13px;
+    background: #01909c;
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+
+.home-accordion .hrlline {
+    position: absolute;
+    display: block;
+    width: 13px;
+    height: 3px;
+    background: #01909c;
+    right: 0;
+    top: 5px
+}
+
+.home-accordion .accordion-content p {
+    margin: 10px 0 0 0;
+    line-height: 1.4
+}
+
+.home-accordion .accordion-content .viewbox p .link {
+    display: inline-block;
+    margin-top: 8px
+}
+
+.home-accordion .viewbox {
+    margin-bottom: 25px
+}
+
+.home-accordion .viewbox img {
+    margin-bottom: 15px;
+    margin-top: 10px
+}
+
+.home-accordion .bluetext {
+    color: #01909c
+}
+
+.home-accordion a {
+    color: #01909c !important;
+}
+
+.home-accordion .card-header button {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    height: 40px;
+    font-size: 100%;
+    text-color: #ffffff !important;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.home-accordion .card-header .btn.btn-link {
+    color: #717171;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.home-accordion .card-header .btn.btn-link.collapsed {
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.home-accordion .card-header .btn.btn-link .plus-minus .vrlline {
+    display: none;
+}
+
+.home-accordion .card-header .btn.btn-link.collapsed .plus-minus .vrlline {
+    display: block;
+}
+
+.home-accordion .card-header .btn {
+    border-radius: unset;
+}
+
+.home-accordion .card {
+    border-radius: unset;
+    margin-bottom: 5px;
+}
+
+.PageBannerLeftHandSideBanner .brokerBanner .brokerBannerText a.txbanner {
+    margin-top: 0;
+    height: auto;
+    line-height: 1.4;
+    background: none;
+    color: #00909d !important;
+    font-weight: normal;
+    text-decoration: underline;
+    margin-right: 13px;
+}
+
+.PageBannerLeftHandSideBanner .brokerBanner .brokerBannerText p.txbannerP {
+    margin-top: 20px;
+}
+
+
+/*View 2020 plans*/
+
+.container.ViewPlans2020 {
+    font-family: Arial, sans-serif;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin: -20px 0px 25px 0px;
+}
+
+.ViewPlans2020 .popupSection h4 {
+    font-size: 16px;
+    color: #6E6E6E;
+    font-weight: bold;
+    margin: 21px 0px;
+}
+
+.ViewPlans2020 .popupSection input[type="checkbox"] {
+    margin-bottom: 5px;
+}
+
+.ViewPlans2020 .arrow-down {
+    vertical-align: top;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.ViewPlans2020 .arrow-right {
+    margin-top: 6px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.ViewPlans2020 .filter-attributes {
+    margin: 10px;
+    color: #333333;
+    font-size: 14px
+}
+
+.ViewPlans2020 .showDiv {
+    visibility: visible;
+    display: block;
+}
+
+.ViewPlans2020 .hideDiv {
+    visibility: hidden;
+    display: none;
+}
+
+.ViewPlans2020 .popupSection h4 span {
+    border: solid #bbbbbb;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-right: 7px;
+}
+
+.ViewPlans2020 .btn.active:hover {
+    color: black;
+}
+
+.ViewPlans2020 .btn.active {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid black;
+}
+
+.ViewPlans2020 #btnFilters img {
+    position: relative;
+    width: 18px;
+    height: 18px;
+}
+
+.ViewPlans2020 .popupSection {
+    position: absolute;
+    background-color: White;
+    z-index: 1;
+    overflow: auto;
+    width: auto;
+    height: auto;
+    max-height: 500px;
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    padding: 25px;
+}
+
+.ViewPlans2020 label {
+    display: block;
+    margin-bottom: 0rem;
+}
+
+.ViewPlans2020 .planList {
+    border-collapse: separate;
+    border-spacing: 20px;
+    margin-top: -12px;
+    margin-left: -15px;
+}
+
+.ViewPlans2020 .planRow {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
+}
+
+.ViewPlans2020 .cardView {
+    border: 1px solid #d5d5d7;
+    width: 314px;
+    text-align: center;
+    padding: 0;
+    vertical-align: top;
+}
+
+.ViewPlans2020 .itemHeader {
+    text-align: left;
+    padding: 13px 0 13px 20px;
+    background: #e7e7e9;
+}
+
+.ViewPlans2020 .itemDetails {
+    background-color: White;
+    width: 100%;
+    padding-top: 6px;
+    border-collapse: separate;
+    border-spacing: 1px;
+}
+
+.ViewPlans2020 .text-grey {
+    color: grey;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.ViewPlans2020 .text-purple {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #6b3c60;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.ViewPlans2020 .btn:active:after {
+    border: none;
+}
+
+.ViewPlans2020 .btn {
+    position: relative;
+    border-radius: 0rem;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #6b3c60;
+    color: White;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none !important;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 5px;
+    opacity: 0.9;
+}
+
+.ViewPlans2020 .staticRow .btn {
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.ViewPlans2020 .staticRow {
+    text-align: left;
+    background-color: White;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0px 6px;
+    padding: 12px 10px 2px 12px;
+}
+
+.ViewPlans2020 .text {
+    text-align: left;
+    padding-left: 16px;
+    padding-top: 5px;
+    color: grey;
+    font-size: 14px;
+}
+
+.ViewPlans2020 .item-price {
+    text-align: right;
+    font-weight: bold;
+    color: grey;
+    font-size: 14px;
+    padding-right: 5px;
+}
+
+.ViewPlans2020 .btn:hover {
+    color: white;
+}
+
+.ViewPlans2020 a[tool-tip]:hover:after {
+    content: attr(tool-tip);
+    padding: 4px 14px;
+    position: absolute;
+    left: 0;
+    bottom: 120%;
+    white-space: nowrap;
+    z-index: 999;
+    font: normal 13px 'Arial';
+    color: black;
+    text-align: center;
+    line-height: normal;
+    background: white;
+    border: 1px solid black;
+    -webkit-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.ViewPlans2020 .drug-lookup {
+    font-size: 14px;
+    vertical-align: middle;
+    padding-left: 6px;
+}
+
+.ViewPlans2020 .drug-lookup a {
+    text-decoration: underline;
+    color: #6b3c60;
+    font-weight: bold;
+}
+
+.ViewPlans2020 .lookup-hint {
+    text-align: right;
+    font-size: 12px;
+}
+
+.ViewPlans2020 .col-sm-4,
+.ViewPlans2020 .col-sm-12 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+@media(max-width: 576px) {
+    .ViewPlans2020 #btnDrugFormulary {
+        margin-top: 5px;
+    }
+}
+
+@media(max-width: 768px) {
+    .container.ViewPlans2020 {
+        max-width: 100%;
+        margin-top: 10px;
+    }
+}
+
+.ViewPlans2020 .popupSection i {
+    border: solid #bbbbbb;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 0px 7px 0px 0px;
+}
+
+.PlanNotes #download {
+    position: relative;
+    padding: 15px 5px;
+}
+
+.PlanNotes .download-text {
+    padding-right: 8px;
+    font: bold 13px 'Arial';
+    color: #686868;
+}
+
+.PlanNotes a {
+    color: #00909d;
+    text-decoration: none;
+}
+
+.PlanNotes a:hover {
+    text-decoration: underline;
+}
+
+.PlanNotes #filter-description>p {
+    margin: 8px 0;
+    font-size: 12px;
+}
+
+.PlanNotes #filter-description .filter-name {
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(51, 51, 51);
+}
+
+.PlanNotes #filter-description .filter-desc {
+    margin-left: 5px;
+    font-family: 'Arial Italic', 'Arial';
+    font-weight: 400;
+    font-style: italic;
+}
+
+.PlanNotes #filter-description,
+#filter-notes {
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.PlanNotes #filter-notes .filter-note-name {
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-size: 14.0625px;
+}
+
+.PlanNotes #filter-notes .filter-note-desc {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 14.0625px;
+}
+
+.PlanNotes p {
+    margin: 0 0 14px 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+.viewplans2020banner .banner.mp-banner {
+    background: none;
+    border: 0;
+    padding-left: 5px;
+    margin-bottom: 0;
+    min-height: 0;
+}
+
+.viewplans2020banner .fullpagewidth.banner .banner-content {
+    width: 580px;
+}
+
+.viewplans2020banner.Headingh2 {
+    color: #626466 !important;
+    font-family: Arial, sans-serif;
+    font-size: 32px !important;
+    margin-top: -20px !important;
+    margin-bottom: 0px !important;
+    font-weight: bold !important;
+    line-height: 44.8px !important;
+}
+
+.viewplans2020banner .banner.mp-banner .banner-content>p {
+    color: #626466 !important;
+    font-family: Arial, sans-serif;
+    font-size: 14px !important;
+    margin: 0;
+}
+
+.viewplans2020banner .banner.mp-banner .banner-content .plan-links {
+    color: #626466 !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
+}
+
+.viewplans2020banner .mp-design.banner a {
+    line-height: 20px !important;
+    background: none transparent scroll repeat 0% 0% !important;
+}
+
+.viewplans2020banner .banner.mp-banner .banner-content .plan-brouchers,
+.viewplans2020banner .banner.mp-banner .banner-content .plan-brouchers strong {
+    color: #6b3c60 !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
+}
+
+.viewplans2020banner .mp-design * {
+    font-family: Arial, sans-serif;
+    color: #626466;
+    line-height: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .viewplans2020banner .banner-content {
+        width: 332px !important;
+    }
+
+    .Medicare .medicare-memeber-wrapper .medicare-ID-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    #planListView .cardView .itemDetails tr {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #planListView #planDetailsCard0 .staticRow tr {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #planListView tr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #planListView td {
+        margin: 3px;
+        flex: 1;
+    }
+
+    .brokerTools .brokerToolsContainer h2,
+    .Artical_contentPrivacyPractices h2,
+    .StaticPageLayout .MainContentRight-pageTitle h2,
+    .brokerTools .brokerToolsContainer h2 {
+        Font-size: 20px;
+    }
+
+    .layout>.row {
+        padding: 0;
+        margin: 0;
+    }
+
+    .TwoColumnImageDesc.container .right-content {
+        Width: 100%;
+    }
+
+    .Artical_contentPrivacyPractices h1 {
+        Font-size: 25px;
+        line-height: 28px;
+    }
+
+    .container.PdfLinks {
+        padding-bottom: 10px;
+    }
+
+    .healthplan h3,
+    .healthplan h4 {
+        Font-size: 18px;
+    }
+
+    .pageMainBanner .banner .mainBanner .content p.healthypara {
+        line-height: 19px !important;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .viewplans2020banner .banner-content {
+        width: 362px !important;
+    }
+
+    #planListView tr {
+        display: flex;
+        width: 100%;
+        margin: 0px -5px 0px 0px;
+        flex-wrap: wrap;
+    }
+
+    #planListView td {
+        margin: 5px;
+        flex: 1;
+    }
+}
+
+/*OtherStatePopup*/
+
+#state-select-modal .modal-dialog {
+    max-width: none;
+    width: 517px;
+}
+
+#state-select-modal .modal-content {
+    border-radius: 0;
+}
+
+#state-select-modal .modal-body {
+    padding: 14px;
+    font-family: Arial, sans-serif;
+}
+
+#state-select-modal h2 {
+    color: #2c2d31;
+    font-size: 22.4px;
+    font-weight: 400;
+}
+
+#state-select-modal .ssm-close-btn {
+    cursor: pointer;
+    height: 32px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background: #fff;
+    background-position: -95px -77px;
+    width: 37px;
+}
+
+#state-select-modal .ssm-sub-title {
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 11.3px;
+    color: #2c2d31;
+}
+
+#state-select-modal .ssm-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 0 0 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#state-select-modal .ssm-state-dd-ttl,
+#state-select-modal .ssm-lang-dd-ttl {
+    color: #00909d;
+    margin: 0 0 10px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+#state-select-modal .ssm-state-dd,
+#state-select-modal .ssm-lang-dd {
+    width: 170px;
+}
+
+#state-select-modal .ssm-submit {
+    margin-top: 7px;
+    display: block;
+    float: right;
+    background: repeat-x 0 0 #00a7ab;
+    padding: 5px 16px 6px;
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #067a91;
+    border: 1px solid #0292a0;
+    border-top: 1px solid #75d7e2;
+    border-left: 1px solid #75d7e2;
+    outline: 1px solid #ccc;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:767px) {
+    #state-select-modal .modal-dialog {
+        width: 90%;
+    }
+
+    #state-select-modal .ssm-content {
+        display: block;
+    }
+
+    #state-select-modal .ssm-lang-dd-ttl {
+        margin-top: 10px;
+    }
+
+    .healthylogo {
+        top: -15px;
+    }
+}
+
+
+#state-select-modal-find-doctor .modal-dialog {
+    max-width: none;
+    width: 517px;
+}
+
+#state-select-modal-find-doctor .modal-content {
+    border-radius: 0;
+}
+
+#state-select-modal-find-doctor .modal-body {
+    padding: 14px;
+    font-family: Arial, sans-serif;
+}
+
+#state-select-modal-find-doctor h2 {
+    color: #2c2d31;
+    font-size: 22.4px;
+    font-weight: 400;
+}
+
+#state-select-modal-find-doctor .ssm-close-btn {
+    cursor: pointer;
+    height: 32px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background: #fff;
+    background-position: -95px -77px;
+    width: 37px;
+}
+
+#state-select-modal-find-doctor .ssm-sub-title {
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 11.3px;
+    color: #2c2d31;
+}
+
+#state-select-modal-find-doctor .ssm-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 0 0 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#state-select-modal-find-doctor .ssm-state-dd-ttl,
+#state-select-modal-find-doctor .ssm-lang-dd-ttl {
+    color: #00909d;
+    margin: 0 0 10px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+#state-select-modal-find-doctor .ssm-state-dd,
+#state-select-modal-find-doctor .ssm-lang-dd {
+    width: 170px;
+}
+
+#state-select-modal-find-doctor .ssm-submit {
+    margin-top: 7px;
+    display: block;
+    float: right;
+    background: repeat-x 0 0 #00a7ab;
+    padding: 5px 16px 6px;
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #067a91;
+    border: 1px solid #0292a0;
+    border-top: 1px solid #75d7e2;
+    border-left: 1px solid #75d7e2;
+    outline: 1px solid #ccc;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:767px) {
+    #state-select-modal-find-doctor .modal-dialog {
+        width: 90%;
+    }
+
+    #state-select-modal-find-doctor .ssm-content {
+        display: block;
+    }
+
+    #state-select-modal-find-doctor .ssm-lang-dd-ttl {
+        margin-top: 10px;
+    }
+
+    .healthylogo {
+        top: -15px;
+    }
+}
+
+.healthylogo h2 {
+    width: 295px;
+    height: 15px;
+    float: left;
+}
+
+.hpdivider {
+    border-right: 1px solid #cdcdcd;
+    margin-left: 40px;
+}
+
+.healthylogo a span {
+    display: none;
+}
+
+.pagelayout .mainContent #main-content .ms-rtestate-field #MSOPageViewerWebPart_WebPartWPQ1 {
+    height: 370px;
+    width: 100%;
+}
+
+.pagelayout .mainContent #main-content .iFrame2 .ms-rtestate-field #MSOPageViewerWebPart_WebPartWPQ1 {
+    height: 1050px;
+}
+
+/* ms-rteTable-default */
+.StaticPageLayout table.ms-rteTable-default,
+.providerPage.ms-rteTable-default {
+    border: solid 1px #c4c4c4;
+    padding: 2px;
+    vertical-align: top;
+}
+
+.StaticPageLayout table.ms-rteTable-default th,
+.StaticPageLayout table.ms-rteTable-default td,
+.providerPage.ms-rteTable-default th,
+.providerPage.ms-rteTable-default td {
+    border: solid 1px #c4c4c4;
+    padding: 2px;
+    vertical-align: top;
+    background-color: #fff;
+    text-align: left;
+    font-size: 13.0781px;
+}
+
+.StaticPageLayout table.ms-rteTable-default td ul li,
+.providerPage.ms-rteTable-default td ul li {
+    font-size: 13px;
+    word-break: break-all;
+}
+
+
+.header-skip {
+    padding: 6px 9px 6px 9px;
+    display: inline;
+    z-index: 2;
+    position: absolute;
+    margin-left: 20px;
+    width: 120px;
+    left: -200em;
+}
+
+.header-skip.focus,
+.header-skip.focus:focus {
+    left: 0;
+    width: auto;
+    color: #000;
+    font-size: 13px;
+    background-color: #fff;
+    padding: 7px 10px;
+    line-height: 1;
+    outline: none;
+}
+
+
+/* ms-rteTable-default */
+
+
+
+.StaticPageLayout table.ms-rteTable-default,
+.providerPage.ms-rteTable-default {
+    border: solid 1px #c4c4c4;
+    padding: 2px;
+    vertical-align: top;
+}
+
+.StaticPageLayout table.ms-rteTable-default th,
+.StaticPageLayout table.ms-rteTable-default td,
+.providerPage.ms-rteTable-default th,
+.providerPage.ms-rteTable-default td {
+    border: solid 1px #c4c4c4;
+    padding: 2px;
+    vertical-align: top;
+    background-color: #fff;
+    text-align: left;
+    font-size: 13.0781px;
+}
+
+.StaticPageLayout table.ms-rteTable-default td ul li,
+.providerPage.ms-rteTable-default td ul li {
+    font-size: 13px;
+    word-break: break-all;
+}
+
+/* Provider common new class */
+.providerNav li.nav-item.selected.dropdown a:hover {
+    color: #fff !important;
+}
+
+/* provider common new classes */
+
+.formcntrlbox h3 {
+    background: #f0f0f0;
+    width: 100%;
+    padding: 4px;
+    padding-left: 5px;
+    margin: 0 !important;
+    font-size: 14px;
+}
+
+.formcntrlbox {
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+    line-height: 1.4;
+}
+
+.formcntrlbox ul.feedbkUL {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.formcntrlbox li.lftfeedbox {
+    float: left;
+    width: 265px;
+    display: inline-block;
+    margin-right: 14px;
+    text-align: right;
+}
+
+.formcntrlbox li.lftfeedbox label {
+    margin: 0 !important;
+    float: none !important;
+    font-size: 13px;
+}
+
+.formcntrlbox li.rgtfeedbox {
+    float: left;
+    display: inline;
+    width: auto;
+}
+
+.formcntrlbox li.rgtfeedbox label {
+    margin: 0 !important;
+    float: none !important;
+    font-size: 13px;
+}
+
+.formcntrlbox li.rgtfeedbox input {
+    background: repeat-x 0 0 transparent;
+    border-top: solid 1px #aaa;
+    border-left: solid 1px #aaa;
+    border-bottom: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    height: 27px;
+    padding: 5px;
+    width: 282px;
+    color: #3d3d3d;
+}
+
+.formcntrlbox li.rgtfeedbox select {
+    float: left;
+    margin: 12px 0 0 0;
+    font-size: 1.2em;
+    margin-top: 0 !important;
+    width: 282px !important;
+}
+
+.formcntrlbox-submitbtns {
+    text-align: center;
+}
+
+.formcntrlbox-submitbtns p {
+    text-align: center;
+    margin-bottom: 10px !important;
+    display: inline-block;
+}
+
+.formcntrlbox-submitbtns p input {
+    display: block;
+    float: left;
+    background: repeat-x 0 0 #00a7ab;
+    padding: 5px 16px 6px;
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #067a91;
+    border: 1px solid #0292a0;
+    border-top: 1px solid #75d7e2;
+    border-left: 1px solid #75d7e2;
+    outline: 1px solid #ccc;
+    margin-right: 10px;
+    float: none !important;
+    display: inline !important;
+}
+
+.formcntrlbox .rgtfeedbox textarea {
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 14px;
+    width: 280px;
+    height: 85px;
+    color: #3d3d3d;
+    font-family: Arial, sans-serif;
+    resize: none;
+    background: repeat-x 0 0 transparent;
+}
+
+.formcntrlbox .reqfld {
+    color: red;
+}
+
+.formcntrlbox {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.formcntrlbox li.rgtfeedbox .recaptcha-box {
+    margin-top: -30px;
+}
+
+.formcntrlbox .ddcommon .ddTitle {
+    margin-left: -4px;
+}
+
+.ms-rtestate-field ul li {
+    list-style-type: disc;
+    line-height: 19.68px;
+    color: rgb(61, 61, 61);
+}
+
+.medicare-memeber-wrapper .ms-rtestate-field ul li {
+    list-style-type: disc;
+    line-height: 1.4;
+    margin: 0;
+}
+
+@media only screen and (max-width:767px) {
+    .formcntrlbox li.lftfeedbox {
+        text-align: left;
+    }
+
+    .PageBannerLeftHandSideBanner .row .col-sm-12 .brokerBanner.right .brokerBannerText h1 {
+        font-size: 20px !important;
+    }
+}
+
+#WebPartWPQ1 h2 {
+    font-size: 21.0938px;
+    margin: 7px 0;
+    line-height: 1.4;
+    clear: both;
+}
+
+#WebPartWPQ1 .two-column {
+    width: 40%;
+    float: left;
+}
+
+
+div#WebPartWPQ1 ul {
+    margin-left: 30px;
+    padding: 0;
+}
+
+#WebPartWPQ1 h3 {
+    font-size: 16.4531px;
+    margin: 7px 0;
+    line-height: 1.4;
+}
+
+#tbl table.ms-rteTable-default {
+    font-size: 14px;
+}
+
+.ms-rtestate-field.termsprivacy p {
+    line-height: 19.6875px !important;
+}
+
+.ms-rtestate-field.termsprivacy ul.unorderedlist {
+    margin-left: 46px;
+    margin-bottom: 15px;
+}
+
+.ms-rtestate-field.termsprivacy ul.orderedList {
+    margin: 0;
+}
+
+.ms-rtestate-field.termsprivacy ul.orderedList li {
+    list-style-type: none;
+    line-height: 14.0625px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-width:1200px) {
+
+    .covid-thankyou-image img {
+        margin-left: -22px !important;
+        width: auto !important;
+    }
+
+
+    .provider-two-column .col-md-8.provider-column-left .provider-welcome-note,
+    .provider-two-column .col-md-8.provider-column-left .provider-service-portal {
+        width: 45.9rem;
+    }
+
+    #carouselExampleIndicators .carousel-item {
+        min-height: 300px;
+    }
+
+    .link-wrap #msgBanner {
+        width: 62.5rem;
+    }
+
+    .Medicare .mainBanner .content {
+        Width: 440px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+
+    .pageMainBanner .banner img {
+        float: none !important;
+        margin-left: 0;
+        width: 100%;
+        min-height: 260px;
+    }
+
+    .GetActive .top-content p {
+        Width: 50%;
+    }
+
+    .homeBanner #carouselExampleIndicators .carousel-item:nth-child(3) .carousel-caption h2,
+    .homeBanner #carouselExampleIndicators .carousel-item:nth-child(3) .carousel-caption p {
+        color: #000 !important;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .Medicare .PageBannerLeftHandSideBanner h6 {
+        Margin-top: 20px;
+    }
+
+    .healthcare-professionals-popup .changeBtn_single {
+        line-height: 38px;
+    }
+
+    #carouselExampleIndicators .carousel-caption div.ms-rteElement-Subheading-24px {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+
+    .homeBanner #carouselExampleIndicators .carousel-item:nth-child(3) .carousel-caption h2,
+    .homeBanner #carouselExampleIndicators .carousel-item:nth-child(3) .carousel-caption p {
+        color: #000 !important;
+    }
+
+    .GetActive .top-content img {
+        float: none;
+        width: 100%;
+    }
+
+    .MainContentRight .medicare-memeber-wrapper .landing-module h2,
+    .MainContentRight .medicare-memeber-wrapper .landing-module h2.grid-image-heading {
+        Width: 100%;
+    }
+
+    .news .item h4 {
+        font-size: 18px;
+    }
+
+    .GetActive .top-content p {
+        width: auto;
+        margin: 0 0 15px 0;
+        padding-left: 15px;
+    }
+
+    .pageMainBanner .mainBanner .content {
+        width: 100%;
+    }
+
+    .pageMainBanner .mainBanner h2 {
+        color: #000;
+        font-family: Arial, sans-serif !important;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .MainContentRight.Medicare #main-content {
+        padding: 0;
+        height: auto !important;
+    }
+
+    .PageBannerLeftHandSideBanner .brokerBanner .brokerBannerText p {
+        line-height: 1.4;
+        margin-top: 10px;
+    }
+
+    .pageMainBanner .banner .mainBanner .content p {
+        font-size: 14px !important;
+        line-height: 1.4;
+        color: #000;
+    }
+
+    .Business .col-md-6.col-xs-12.ImageWithText-content {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .ViewPlanInformation .ViewPlanbanner .ViewPlanbanner-content br {
+        display: none;
+    }
+
+    .whymolinarow {
+        padding: 10px;
+    }
+
+    .ImageBoxLeft .ImageBoxbanner .content>h2,
+    .ImageBoxbanner .content h2,
+    .needhelp-marketplace H2,
+    .side-module-form .side-maintxt {
+        font-size: 20px !important;
+    }
+
+    .ImageBoxLeft .ImageBoxbanner,
+    .ImageBox .ImageBoxbanner {
+        padding: 0 0 0 15px;
+    }
+
+    .TwoColumnImageDesc img.frame-small {
+        margin-bottom: 15px;
+    }
+
+    .TwoColumnImageDesc.molNews.container .row.middle {
+        background: none;
+    }
+
+    .pageMainBanner .mainBanner h2#Headingh2 .mainheadingh2 {
+        font-size: 25px !important;
+        line-height: 25px;
+    }
+
+    .pageMainBanner .mainBanner h2#Headingh2 .subheadingh2 {
+        font-size: 16px !important;
+        font-family: Arial, sans-serif;
+    }
+
+    .cookieDesc {
+        width: 98%;
+    }
+
+    .cookieConsentContainer {
+        padding: 10px;
+    }
+
+    #carouselExampleIndicators .id-banner-list {
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+    ViewPlanInformation .ViewPlanbanner .ViewPlanbanner-content .paradesign {
+        Font-size: 14px !important;
+    }
+
+    .brokerHeaderMain p {
+        Font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .MainContentRight.Medicare #main-content .DocumentDownload {
+        width: auto !important;
+    }
+}
+
+/*News Block*/
+
+.container {
+    background-color: #fff;
+}
+
+.TwoColumnImageDesc.molNews .middle {
+    background: #fff no-repeat center center;
+    margin-bottom: 5px;
+    border: 2px solid #e4e4e4;
+    padding: 0;
+}
+
+.TwoColumnImageDesc.molNews a {
+    color: #00909d;
+}
+
+.TwoColumnImageDesc.molNews .newsfeed td {
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.TwoColumnImageDesc.molNews .newsfeed tr:nth-child(1) {
+    background: #738800;
+    color: #fff;
+    border-collapse: separate;
+}
+
+.TwoColumnImageDesc.molNews .newsfeed tr:nth-child(2) {
+    background: #769d00;
+    color: #fff;
+    border-collapse: separate;
+}
+
+.TwoColumnImageDesc.molNews .newsfeed tr:nth-child(3) {
+    background: #a0bd00;
+    color: #fff;
+    border-collapse: separate;
+}
+
+.TwoColumnImageDesc.molNews .newsfeed tr:nth-child(odd)>td:nth-child(even) {
+    background: #e5e6e3;
+    padding: 10px;
+    line-height: 1.2;
+    border: 1px solid #fff;
+}
+
+.TwoColumnImageDesc.molNews .newsfeed tr:nth-child(even)>td:nth-child(even) {
+    background: #f4f4f1;
+    padding: 10px;
+    line-height: 1.2;
+    border: 1px solid #fff;
+}
+
+ul.accordapplynot {
+    background: #eaeaea;
+}
+
+.TwoColumnImageDesc.molNews .newsfeed td {
+    padding: 10px;
+    border: 1px solid #fff;
+    vertical-align: top;
+}
+
+.TwoColumnImageDesc.molNews.container .newsfeed {
+    font-size: 14.0625px;
+    line-height: 16.875px;
+    margin-bottom: 10px;
+}
+
+.TwoColumnImageDesc.molNews.container h3 {
+    font-size: 20.6297px;
+    line-height: 20.6297px;
+}
+
+.TwoColumnImageDesc .middle .col-md-6 {
+    padding: 16px;
+}
+
+.TwoColumnImageDesc .middle a.more-news {
+    text-align: right;
+    display: block;
+    text-transform: capitalize;
+}
+
+table.ms-rteTable-0.tablenoborder td {
+    border: none !important;
+}
+
+@media only screen and (max-width: 990px) {
+    .AlertFlHeadingPara br {
+        display: none;
+    }
+
+    .nybehhlth,
+    .nybehhlth2 #lnk-wrp {
+        width: 78% !important;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    .FadeAwayPopup {
+        width: 420px;
+    }
+
+    .MainContentRight .banner.extra-space {
+        padding-bottom: 40px;
+    }
+
+    .brokerHeaderMainText {
+        padding-top: 1.3em;
+    }
+
+    .brokerHeaderMainText p br {
+        display: none;
+    }
+
+    .AlertFlHeadingPara {
+        left: 10px;
+        top: 0;
+        position: relative;
+        padding-bottom: 10px;
+    }
+
+    .PageBannerLeftHandSideBanner h2 {
+        Margin: 0 !important
+    }
+}
+
+.landing-module a:not([href]):not([tabindex]):hover {
+    color: #00909d;
+    text-decoration: none;
+}
+
+.pageMainBanner .mainBanner h2#Headingh2 .mainheadingh2 {
+    font-size: 48px;
+    font-family: 'Optima LT W01 Roman', Arial, sans-serif;
+    margin-bottom: 10px;
+    line-height: 48px;
+}
+
+.pageMainBanner .mainBanner h2#Headingh2 .subheadingh2 {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+
+.MainContentRight #main-content .banner.bannernocontent img {
+    width: 100%;
+}
+
+.MainContentRight #main-content .banner.bannernocontent .content {
+    display: none;
+    background: transparent;
+    border: none;
+}
+
+.MainContentRight #main-content .banner.bannernocontent {
+    background: transparent;
+    min-height: auto;
+    display: table;
+}
+
+.MainContentRight #main-content .banner.bannernocontent .mainBanner {
+    background: none;
+    min-height: auto;
+}
+
+.MainContentRight table.tablenopadding td {
+    vertical-align: top;
+}
+
+.MainContentRight table.ms-rteTable-0.tablenoborder.tablenopadding {
+    margin-bottom: 30px;
+}
+
+.pageMainBanner .banner .mainBanner .content p.healthypara {
+    line-height: 26px;
+    font-size: 19px;
+    width: 90%;
+}
+
+.MainContentRight.Medicare #main-content .DocumentDownload {
+    width: 140%;
+}

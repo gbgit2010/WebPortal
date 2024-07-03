@@ -1,0 +1,75 @@
+h1{
+color:blue;
+}
+
+
+h3{
+color:Red;
+background-color:grey
+}
+p{
+  color:black;
+  margin:1
+}
+
+#userText
+{
+font-size:10pt;
+font-family:"Verdana"
+}
+
+#agentText
+{
+font-size:10pt;
+font-family:"Verdana"
+}
+
+section {
+       
+ 
+        border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 30%;
+        left: 23.5%;
+        margin-right: -50%;
+        /*transform: translate(-50%, -50%)*/
+		
+}
+
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*.button3 {border-radius: 10px;}*/
+.button3 {border-radius: 4px; background-color: #1a1a1a;  padding: 6px;font-size: 14px; }
+.button1 {border-radius: 8px; background-color: #FFA500;  }
+.button2 {border-radius: 8px; background-color: #0000A5;}
+
+
+
+  div.divFooter {
+    position: fixed;
+    bottom: 0;
+	  float:left;
+    padding: 10px 10px 10px 1200px;
+  
+           
+  }
+  div.divFooter2 {
+    position: fixed;
+    bottom: 0;
+	float:left;
+   
+           
+  }
+
